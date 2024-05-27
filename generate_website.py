@@ -202,6 +202,20 @@ html_content = """
             align-items: flex-start;
         }
 
+        .clinic-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .clinic-buttons .btn {
+            width: 48%;
+        }
+
+        #categories {
+            margin: 0px !important;
+        }
+        .service, .service-details {
+            padding: 0px 15px;
+        }
 
     </style>
 </head>
@@ -333,7 +347,10 @@ html_content += """
                     if (service.description) {
                         content += '<p>' + service.description.replace(/\\n/g, '<br>') + '</p>';
                     }
-                    content += '<a href="https://feminine.planway.com/?d=28822&sid=' + service.service_id + '" class="btn btn-success">Bestil tid</a>';
+                    content += '<div class="clinic-buttons">';
+                    content += '<a href="https://feminine.planway.com/?d=10752&sid=' + service.service_id + '" class="btn btn-success">Bestil tid i Hjemmeklinik</a>';
+                    content += '<a href="https://feminine.planway.com/?d=28822&sid=' + service.service_id + '" class="btn btn-success">Bestil tid i Klinik</a>';
+                    content += '</div>';
                     $('#service-details-content').html(content);
 
                     var category = getCategoryByServiceId(serviceId);
