@@ -24,11 +24,11 @@ ensure_service_ids(categories_data)
 
 # Define image URLs for each category
 image_urls = {
-    "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/woman-making-facial-treatment-in-a-beauty-saloon.jpg",
-    "KROPSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/spa-massage-indian-woman-relaxing-on-table-while-therapist-massaging-her-shoulders.jpg",
-    "VIPPE & BRYN BEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/IMG_1408.jpg",
+    "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-arina-krasnikova-6663571-scaled-e1716654696254.jpg",
+    "KROPSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-cottonbro-3997991-1-scaled.jpg",
+    "VIPPE & BRYN BEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-shiny-diamond-3762665-scaled.jpg",
     "LYCON VOKSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/liquid-sugar-wax-on-spatula-beige.jpg",
-    "PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/beauty-box-wellness-zero-waste-gift-natural-organic-spa-care-package-handmade-eco-box-mental.jpg"
+    "PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg"
 }
 
 # Start creating the HTML content
@@ -294,11 +294,11 @@ html_content += """
         var categories_data = """ + json.dumps(categories_data) + """;
         var currentCategoryId = null;
         var image_urls = {
-            "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/woman-making-facial-treatment-in-a-beauty-saloon.jpg",
-            "KROPSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/spa-massage-indian-woman-relaxing-on-table-while-therapist-massaging-her-shoulders.jpg",
-            "VIPPE & BRYN BEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/IMG_1408.jpg",
+            "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-arina-krasnikova-6663571-scaled-e1716654696254.jpg",
+            "KROPSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-cottonbro-3997991-1-scaled.jpg",
+            "VIPPE & BRYN BEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-shiny-diamond-3762665-scaled.jpg",
             "LYCON VOKSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/liquid-sugar-wax-on-spatula-beige.jpg",
-            "PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/beauty-box-wellness-zero-waste-gift-natural-organic-spa-care-package-handmade-eco-box-mental.jpg"
+            "PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg"
         };
 
         $(document).ready(function() {
