@@ -22,13 +22,18 @@ def ensure_service_ids(categories):
 # Ensure all services have unique IDs
 ensure_service_ids(categories_data)
 
+
 # Define image URLs for each category
 image_urls = {
-    "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-arina-krasnikova-6663571-scaled-e1716654696254.jpg",
-    "KROPSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-cottonbro-3997991-1-scaled.jpg",
-    "VIPPE & BRYN BEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-shiny-diamond-3762665-scaled.jpg",
-    "LYCON VOKSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/liquid-sugar-wax-on-spatula-beige.jpg",
-    "PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg"
+    "ANSIGTSBEHANDLINGER": "http://www.feminine.aveo19.dk/wp-content/uploads/woman-making-facial-treatment-in-a-beauty-saloon.jpg",
+    "KROPSBEHANDLINGER / KUN FOR KVINDER": "http://www.feminine.aveo19.dk/wp-content/uploads/spa-massage-indian-woman-relaxing-on-table-while-therapist-massaging-her-shoulders.jpg",
+    "VIPPE & BRYN BEHANDLINGER / INKL. LASH LIFT/BROW LAMINATION": "http://www.feminine.aveo19.dk/wp-content/uploads/IMG_1408.jpg",
+    "VOKSBEHANDLINGER (ANSIGT)": "http://www.feminine.aveo19.dk/wp-content/uploads/liquid-sugar-wax-on-spatula-beige.jpg",
+    "VOKSBEHANDLINGER (KROP) / KUN FOR KVINDER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg",
+    "VOKSBEHANDLINGER (INTIM) / KUN FOR KVINDER": "http://www.feminine.aveo19.dk/wp-content/uploads/liquid-sugar-wax-on-spatula-beige.jpg",
+    "MASSAGE / KUN FOR KVINDER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg",
+    "TILLÆG YDELSER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg",
+    "RABAT PAKKER": "http://www.feminine.aveo19.dk/wp-content/uploads/pexels-sunsetoned-6431179-scaled.jpg"
 }
 
 # Start creating the HTML content
@@ -449,4 +454,4 @@ html_content += """
 with open(output_html_path, "w", encoding="utf-8") as html_file:
     html_file.write(html_content)
 
-print(f"HTML file generated at {output_html_path}")
+#print(f"HTML file generated at {output_html_path}")

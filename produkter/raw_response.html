@@ -1,0 +1,2091 @@
+<body class=" " >
+<div class="modal fade auto" id="confirmModal" tabindex="1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+	  <form action="https://feminine.planway.com/" method="post" accept-charset="utf-8">
+      <div class="modal-body text-center">
+
+	  	<i class="icon-warning modal-icon text-primary"></i>
+		<h5>Er du sikker på du ønsker at udføre denne handling?</h5>
+
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Nej, gå tilbage</button>
+          <a href="#" class="btn linkhref btn-primary">Ja</a>
+      </div>
+      </form>    </div>
+  </div>
+</div>
+
+<div class="modal auto fade" id="confirm_sms_message">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+	  <a href="https://feminine.planway.com/settings/hide_confirm_sms?r=https://feminine.planway.com/"><button type="button" class="close close-checkout-box"><i class="icon-cross"></i></button></a>
+      <button type="button" class="close close-left-panel" style="display: none"><i class="icon-cross"></i></button>
+      <div class="modal-body">
+        <h1 style="line-height: 33px; font-size: 25px">Vigtig besked vedrørende Premium</h1>
+        <p style="color: #000; font-size: 14px; line-height: 19px">Kære kunde<br /><br />
+	        Fra 1. februar 2024 vil SMS-bekræftelser ikke længere være en del af dit Planway Premium abonnement. Det skyldes, at vores SMS-udbyder desværre har hævet prisen betydeligt.<br /><br />
+	        
+	        For at bevare vores lave abonnementspriser, har vi valgt denne løsning, hvor du som kunde selv bestemmer, om du vil anvende SMS-bekræftelser som et tilkøb eller ej.<br /><br />
+	        
+	        <b>Nedenfor bedes du tage stilling til, om du pr. 1. februar 2024 ønsker at have SMS-bekræftelser aktiveret.</b><br /><br />
+	        
+	        Prisen er 49 øre ekskl. moms pr. afsendt bekræftelse. <br />
+			Betalingen trækkes månedligt på det betalingskort, du har tilknyttet Planway Premium eller i forbindelse med trækning af abonnementet.<br />
+			<br />
+			<b>Alle SMS-påmindelser (de beskeder dine kunder modtager x timer før en aftale) vil fortsat være inkluderet i abonnementet og koster ikke ekstra.</b>
+        </p>
+        <div class="row">
+	        <div class="col-md-12">
+		        
+		        <hr style="margin-top: 0px; margin-bottom: 10px" />
+		        
+				<form action="https://feminine.planway.com/settings/update_sms_confirm_status?r=https://feminine.planway.com/" method="post" accept-charset="utf-8">
+				
+				<b>Ønsker du at aktivere SMS-bekræftelser?</b>
+								
+				<div class="confirm-button-box">
+					<a href="#" class="sms-confirm-button" data-type="yes">Ja tak</a>
+					<a href="#" class="sms-confirm-button" data-type="no">Nej tak</a>
+				</div>
+				
+				<div class="sms-confirm-form-box">
+					<label style="line-height: 17px" class="accept-confirm-sms">
+						<input type="checkbox" name="condition_accepted" value="1" style="margin-right: 5px" /> Jeg godkender og accepterer prisen på 49 øre ekskl. moms pr. afsendt SMS-bekræftelse og ønsker at aktivere dette fra d. 1. februar 2024
+					</label>
+					
+					<input type="hidden" name="status" value="0" />
+					
+					<button type="submit" class="btn btn-success loader" name="submit" value="1" style="width: 100%; border: 2px solid #54B79B; background: #54B79B; color: #fff; margin-top: 0px; padding: 5px; font-size: 20px; font-weight: 600" /><i class="fa fa-circle-o-notch fa-spin"></i>
+					<span>Gem</span>
+					</button>
+				</div>
+				</form>
+				<div style="padding-top: 30px; text-align: left; font-size: 13px; font-style: italic"><a href="https://feminine.planway.com/settings/hide_confirm_sms?r=https://feminine.planway.com/" style="color: #2e2e2e">Spørg mig igen senere</a></div>
+			    
+	        </div>
+	    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <style type="text/css">
+/* ICONS */
+#widget .booking .step.open h2 i{
+	color: #4bc0c0 !important;
+}	
+
+/* BUTTON */
+.btn.btn-success{
+	background: #3db87c;
+}
+/* HOVER BUTTON */
+.btn.btn-success:hover{
+	background: #2ea96d;
+	box-shadow: none;
+	border-color: #2ea96d !important;
+}
+
+/* CHECK SIGN */
+#widget .booking .step .choice i{
+	color: #4bc0c0 !important;
+}
+
+/* MARK COLOR AROUND BOX */
+#widget .booking .step .content .slots .slot:not(.no-check).checked{
+	border-color: #4bc0c0 !important;
+}
+
+/* BORDER FOR CHECKED BOX */
+#widget .booking .step .content .slots .slot:not(.no-check).checked .title::before{
+	border-color: #4bc0c0 !important;
+}
+#widget .booking .step .content .slots .slot .title:not(.no-check)::before{
+	color: #4bc0c0 !important;
+}
+
+
+/* FREE BG BUTTON (DARKER) */
+#widget .booking .step .content #datepicker .datepicker table .day.active{
+	background: #00a100 !important;
+}
+
+/* FREE BG BUTTON */
+#widget .booking .step .content #datepicker .datepicker table .day.free{
+	background: #0dbf00;
+}
+
+#widget .booking .step .content #datepicker .datepicker table .day.active{
+	background: #00a100 !important;
+}
+
+body{
+	background: #f1f5f9 !important;
+}
+
+.top-bar{
+	background: #292a33 !important;
+}
+
+.top-bar h1 a, .top-bar .customermenu li a, .top-menu .hamburger .icon-menu{
+	color: #ffffff !important;
+}
+
+</style>
+
+
+<div class="modal fade auto" id="employee_blocked_new_customers" tabindex="1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+	  <form action="https://feminine.planway.com/" method="post" accept-charset="utf-8">
+      <div class="modal-body text-center">
+	  	<i class="icon-user-plus modal-icon text-success"></i>
+	  	<div class="block_employee_text" style="display: none"></div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Luk vindue</button>
+      </div>
+	  </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal auto" id="zipcode_limit" tabindex="1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="padding: 0px 25px; background: #fff">
+      <div class="modal-body" style="line-height: 18px">
+	  	<form action="https://feminine.planway.com/" method="post" accept-charset="utf-8">
+		<h1 style="line-height: 30px">Hvilket postnummer bor du i?</h1>
+		<p style="margin-bottom: 30px">
+			<input type="text" class="form-control" style="border: 2px solid rgba(0,0,0,0.1)" name="check_zipcode" placeholder="Skriv postnummer (f.eks 2100)" />
+		</p>
+
+	  	<button type="submit" class="btn btn-success loader" name="zipcode_submit" value="1" style="font-size: 18px; width: 100%; padding-bottom: 10px; padding-top: 10px;" /><i class="fa fa-circle-o-notch fa-spin"></i><span>Gå videre til booking</span></button>
+	  	
+	  	</form>      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal auto" id="popupConditions" tabindex="1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="padding: 0px 25px; background: #fff">
+      <div class="modal-body" style="line-height: 18px">
+
+		<h1 style="line-height: 30px">Betingelser</h1>
+		<p style="margin-bottom: 30px">
+						Betaling foregå kontant eller via MobilePay.<br />
+<br />
+Afbud skal ske inden for 24 timer fra behandlingens start. Ved afbud indenfor de 24 timer opkræves 50 % af behandlingens pris for mistet arbejdsfortjeneste.<br />
+Ved aflysning 5 timer før behandlingens start eller udeblivelse af tid opkræves 100 % af behandlingenspris for mistet arbejdsfortjeneste.<br />
+<br />
+Afbud som sker efter 24 timer skal kontakte på +45 26144532.		</p>
+
+	  	<center><a href="#" class="btn btn-success" data-dismiss="modal" style="font-size: 18px; width: 100%; padding-bottom: 10px; padding-top: 10px;" aria-label="Close">Jeg godkender betingelserne</a></center>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="widget" class="">
+
+  <div class="overlay"></div>
+
+  <div class="top-bar">
+  	
+  	<div class="visible-xs visible-sm" style="width: 100%">
+	  	
+	  	<div class="container">
+		  	<div class="row">
+			  	<div class="col-xs-10">
+		  			<h1>
+			  			<a href="https://feminine.planway.com/" style="color: #fff">
+				  							  			Feminine				  							  		</a>
+				  	</h1>
+			  	</div>
+		
+			  	<div class="col-xs-2">
+				  	<div class="pull-right customermenu " >
+					  						  	<li class="flag"><a href="https://feminine.planway.com/widget/setlang/da?rurl=https://feminine.planway.com/" target="_parent"><img src="https://feminine.planway.com/assets/img/da_flag.png" class="lang_img active" width="20px"  /></a></li>
+					  	<li class="flag" style="margin-left: 10px"><a href="https://feminine.planway.com/widget/setlang/en?rurl=https://feminine.planway.com/" target="_parent"><img src="https://feminine.planway.com/assets/img/en_flag.png" class="lang_img " width="20px" /></a></li>
+					  				  			<li class="hamburger"><a href="#" class="nav-trigger"><i class="icon-menu"></i></a></li>
+			  							  	</div>
+			  	</div>
+		  	</div>
+		</div>
+	
+	    <div class="nav">
+  <ul>
+    <li><a href="https://feminine.planway.com/">Book tid</a></li>
+    <li><a class="toggle-sidebar">Information</a></li>
+    <li><a href="https://feminine.planway.com/customerarea" target="_parent" class="">Kundelogin</a></li>
+    		<li><a href="https://feminine.planway.com/widget/buy_giftcard">Køb gavekort</a></li>
+		
+  </ul>
+</div>
+  	</div>
+    
+    <div class="container hidden-xs hidden-sm">
+	  	<div class="row">
+		  	<div class="col-md-6">
+		    <h1>
+			    <a href="https://feminine.planway.com/" style="color: #fff">
+				    		  			Feminine		  							</a>
+			</h1>
+		  	</div>
+		  	<div class="col-md-6">
+			  	<div class="pull-right customermenu" >
+				  	
+				  					  	<li class="flag"><a href="https://feminine.planway.com/widget/setlang/da?rurl=https://feminine.planway.com/" target="_parent"><img src="https://feminine.planway.com/assets/img/da_flag.png" class="lang_img active" width="20px"  /></a></li>
+				  	<li class="flag" style="margin-left: 10px"><a href="https://feminine.planway.com/widget/setlang/en?rurl=https://feminine.planway.com/" target="_parent"><img src="https://feminine.planway.com/assets/img/en_flag.png" class="lang_img " width="20px" /></a></li>
+				  					  					    <li><a href="https://feminine.planway.com/customerarea" target="_parent" class="login hidden-xs hidden-sm"><i class="icon-user-lock"></i> Kundelogin</a></li>
+				    
+			  	</div>
+		  	</div>
+	  	</div>
+  	</div>
+
+  </div>
+  <div class="subtop hidden-xs hidden-sm">
+<div class="container">
+  	<div class="row">
+	  	<div class="col-md-12">
+	  		<ul>
+		  				  		<li class="active"><a href="https://feminine.planway.com/" class="login hidden-xs hidden-sm"><i class="icon-clock3"></i> Book tid</a></li>
+		  				  		<li class="pull-right  remove-m-r add-m-l"><a href="https://feminine.planway.com/widget/buy_giftcard" style="font-weight: bold">Køb gavekort</a></li>
+		  			  		</ul>
+
+	  	</div>
+  	</div>
+	</div>
+</div>
+  <div class="container">
+  	
+	   	
+  		<form action="https://feminine.planway.com/" id="booking_form" method="post" accept-charset="utf-8">
+	
+    <div class="col-md-8  booking">
+
+      <div class="step open department_box " >
+	  	
+	  		  	
+        <h2><i class="icon-apartment"></i> Vælg afdeling</h2>
+        <span class="choice"></span>
+
+        <div class="content">
+
+          <div class="slots">
+
+		  	            <div class="slot departmentSlotBox  department_deep_10752 departmentSlots" data-field="department" data-next="service" data-monday="" data-tuesday="" data-wednesday="" data-thursday="" data-friday="" data-saturday="" data-sunday="" data-address="Skovmarken 10" data-zipcode="4060" data-city="Kirke Såby" data-number="" data-visual_name="Feminine Hjemmeklinik" data-confirm-box="department_name" data-hideaddress="0" data-id="10752">
+              <div class="row">
+                <div class="col-md-8">
+                  <span class="title">Feminine Hjemmeklinik</span>
+                </div>
+                                <div class="col-md-12 description">
+	              
+                  Skovmarken 10, 4060 Kirke Såby	              		          <br />
+		          LUKKET PÅ UBESTEMT TID<br />
+<br />
+Hvad der skulle have været en hjemmeklinik til at øve mig til eksamen, i mine forældres kælder, blev til en lille fin forretning.<br />
+I hjemmeklinikken er der en special ro, som man ikke finde mange steder - men da jeg bor i Roskilde og mine børn går i børnehave/skole, er det nu også på tide, at komme tættere på drømmen om min egen klinik i Roskilde.<br />
+Jeg har derfor lejet mig ind hos dygtige og søde Sara Elfang, som er frisør.<br />
+<br />
+Tak for jeres støtte og hvis du ikke kan finde en tid der passer i hjemmeklinikken, så kan du gå retur og se hvad jeg har af ledige tider i Roskilde - hvor jeg vil være de fleste dage.<br />
+<br />
+Jeg glæder mig til at behandle dig og trække dig helt ned gear.<br />
+<br />
+Venligst Sara<br />
+Feminine		                          </div>
+                              </div>
+            </div>
+			            <div class="slot departmentSlotBox  department_deep_28822 departmentSlots" data-field="department" data-next="service" data-monday="" data-tuesday="" data-wednesday="" data-thursday="" data-friday="" data-saturday="" data-sunday="" data-address="Kornerups vænge 3B" data-zipcode="4000" data-city="Roskilde" data-number="26144532" data-visual_name="Feminine Klinik" data-confirm-box="department_name" data-hideaddress="0" data-id="28822">
+              <div class="row">
+                <div class="col-md-8">
+                  <span class="title">Feminine Klinik</span>
+                </div>
+                                <div class="col-md-12 description">
+	              
+                  Kornerups vænge 3B, 4000 Roskilde	              		          <br />
+		          Jeg har leje mig ind hos søde og dygtige Sara Elfang, som er frisør.<br />
+<br />
+Jeg vil være i denne klinik flest dage om ugen - men hvis du ønsker at være i hjemmeklinikken, findes der også dage, hvor jeg er der. Dog skal du trykke klikke på hjemmeklinik, hvis du ønsker at se mine ledige tider der.<br />
+<br />
+Tak for at støtte mine lille voksende forretning - et skridt tættere på drømmen ✨		                          </div>
+                              </div>
+            </div>
+			          </div>
+
+        </div>
+
+      </div>
+
+            <div class="step  service_box">
+
+        <h2><i class="icon-list"></i> Vælg service</h2>
+        <span class="choice"></span>
+
+        <div class="content">
+	      <div class="categoriesWrapper">
+	          <!--<div class="widget-categories" >
+
+	            <div class="slots">
+				  	              <div class="slot half no-check" data-id="22962">
+	                <div class="row">
+	                  <div class="col-md-8">
+	                    <span class="title titlecategory no-check">LYCON VOKSBEHANDLINGER</span>
+	                  </div>
+	                  <span class="arrow"><i class="icon-chevron-right"></i></span>
+	                </div>
+	              </div>
+				  	              <div class="slot half no-check" data-id="22963">
+	                <div class="row">
+	                  <div class="col-md-8">
+	                    <span class="title titlecategory no-check">ANSIGTSBEHANDLINGER</span>
+	                  </div>
+	                  <span class="arrow"><i class="icon-chevron-right"></i></span>
+	                </div>
+	              </div>
+				  	              <div class="slot half no-check" data-id="22964">
+	                <div class="row">
+	                  <div class="col-md-8">
+	                    <span class="title titlecategory no-check">VIPPE & BRYN BEHANDLINGER</span>
+	                  </div>
+	                  <span class="arrow"><i class="icon-chevron-right"></i></span>
+	                </div>
+	              </div>
+				  	              <div class="slot half no-check" data-id="22966">
+	                <div class="row">
+	                  <div class="col-md-8">
+	                    <span class="title titlecategory no-check">KROPSBEHANDLINGER</span>
+	                  </div>
+	                  <span class="arrow"><i class="icon-chevron-right"></i></span>
+	                </div>
+	              </div>
+				  	              <div class="slot half no-check" data-id="37803">
+	                <div class="row">
+	                  <div class="col-md-8">
+	                    <span class="title titlecategory no-check">PAKKER</span>
+	                  </div>
+	                  <span class="arrow"><i class="icon-chevron-right"></i></span>
+	                </div>
+	              </div>
+				  
+	            </div>
+
+	          </div>
+
+	          <div class="widget-category" >
+
+			  		            <span class="back"><i class="icon-chevron-left"></i> Tilbage til kategorier</span>
+	            
+	            <div class="slots">
+
+				  	              <div class="slot slotproductr chooseService slot_service_129029  slot_category_22964" data-minutes="60" data-price="345.00" data-category_id="22964" data-id="129029" data-wait="0" data-addon="1" data-name="ELLEBANA // Lash Lift med biotinkur. ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ELLEBANA // Lash Lift med biotinkur. </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Permanent vippebuk på naturvippen med biotinkur. Holder op til 4-6 uger og kan genløftes efter 4 uger.<br />
+<br />
+Der kan tilkøbes farve af vipper til denne behandling til kr. 50,-<br />
+<br />
+Anbefaledes at købe en plejende lotion til vipperne fra Ellebana Elleplex til 320,-	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_129033  slot_category_22964" data-minutes="50" data-price="345.00" data-category_id="22964" data-id="129033" data-wait="0" data-addon="0" data-name="Brow Lamination med biotinkur. ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Brow Lamination med biotinkur. </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  50 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Brow Lamination er en permanetbehandling af bryn. Hårene behandles med en plejende kreatinvæske, som hjælper med at manipulerer med formen og groretningen og får dine bryn til at synes længere og fyldigere. <br />
+Behandlingen sluttes af med biotinkur. Holder op til 6 - 8 uger og må gentages efter 4 uger.<br />
+<br />
+Der kan tilkøbes farve af bryn til kr.50,- til denne behandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_129034  slot_category_22966" data-minutes="60" data-price="599.00" data-category_id="22966" data-id="129034" data-wait="0" data-addon="1" data-name="VELVÆRSMASSAGE">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">VELVÆRSMASSAGE</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    599,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Massagen er fokuseret afslapning og drænering. Afhjælpe ømhed og kan give en langvarig ro i nervesystemet.<br />
+<br />
+60 min velværes kropsmassage i Tina Lykkegaard nærende olie.<br />
+<br />
+Tiden er inkl. omklædning.<br />
+<br />
+<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130709  slot_category_22962" data-minutes="45" data-price="245.00" data-category_id="22962" data-id="130709" data-wait="0" data-addon="1" data-name="LYCON // Hot Voks - Halv ansigt (fra næse til hage)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Halv ansigt (fra næse til hage)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130710  slot_category_22962" data-minutes="15" data-price="120.00" data-category_id="22962" data-id="130710" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Overlæbe ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Overlæbe </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    120,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130711  slot_category_22962" data-minutes="15" data-price="175.00" data-category_id="22962" data-id="130711" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Hage (også under hage)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Hage (også under hage)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    175,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130712  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130712" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130713  slot_category_22962" data-minutes="30" data-price="245.00" data-category_id="22962" data-id="130713" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Axil (Armhule)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Axil (Armhule)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130714  slot_category_22962" data-minutes="45" data-price="345.00" data-category_id="22962" data-id="130714" data-wait="0" data-addon="1" data-name="LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ). ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ). </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130715  slot_category_22963" data-minutes="60" data-price="545.00" data-category_id="22963" data-id="130715" data-wait="0" data-addon="1" data-name="FLOW ansigtsbehandling  (velegnet til alle)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">FLOW ansigtsbehandling  (velegnet til alle)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    545,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Tilladt til alle hudtyper og alder. Både ansigt, hals og bryst bliver behandlet.<br />
+<br />
+En ansigtsbehandling med Tina Lykkegaards ekstremt nærende og fugtgivende produkter. Behandlingen giver næring, fugt og balance i huden. Til dig der bare ønsker at massagen skal være i højsædet igennem hele behandlingen og samtidig gå fra behandlingen med hud der stråler og føles gennemfugtet og plejet.<br />
+Obs - der bliver IKKE dybderenset i denne behandling, da det handler om at holde ro og velvær i kroppen, når gæsten forlader briksen.<br />
+<br />
+Behandles med Tina Lykkegaard produkter:<br />
+2 gange afrens i rensebalm, peeling med kulmaske, Ansigtsmassage, fugtmaske med Lysterapi.<br />
+Behandlingen afsluttes med varme klæder med Kamille og produkter fra Tina Lykkegaard.<br />
+<br />
+Tiden er inkl. omklædning, kort konsultation og der vil blive serveret lidt til ganen.<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130716  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130716" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Næse ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Næse </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130717  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130717" data-wait="0" data-addon="0" data-name="LYCON // Hot Voks - Øre">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Øre</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130762  slot_category_22964" data-minutes="75" data-price="495.00" data-category_id="22964" data-id="130762" data-wait="0" data-addon="0" data-name="ELLEBANA // Lash Lift og Brow Lamination KOMBI ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ELLEBANA // Lash Lift og Brow Lamination KOMBI </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  75 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Lash Lift og Brow Lamination begge med Biotionkur. <br />
+<br />
+Elleplex Conditioner anbefaledes at købes med som pleje til kr. 320,-.<br />
+(Ligesom hos frisøren, så anbefaledes håret næring efter en behandling med kemi)<br />
+<br />
+Der kan tilkøbes farve til bryn og vipper til kr. 100,-	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131064  slot_category_22964" data-minutes="15" data-price="145.00" data-category_id="22964" data-id="131064" data-wait="0" data-addon="0" data-name="Farvning af vipper">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af vipper</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131065  slot_category_22964" data-minutes="30" data-price="225.00" data-category_id="22964" data-id="131065" data-wait="0" data-addon="0" data-name="Farvning af vipper og bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af vipper og bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    225,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131067  slot_category_22964" data-minutes="45" data-price="295.00" data-category_id="22964" data-id="131067" data-wait="0" data-addon="1" data-name="Farvning af Vipper og Bryn inkl. ret & formning af bryn.">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af Vipper og Bryn inkl. ret & formning af bryn.</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    295,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_135584  slot_category_22963" data-minutes="30" data-price="275.00" data-category_id="22963" data-id="135584" data-wait="0" data-addon="0" data-name="TILLÆG: DIAMANTSLIBNING">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: DIAMANTSLIBNING</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    275,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Tillægs behandling - og kan kun tilføjes til en ansigtsbehandling og ikke en stand alone behandling.<br />
+<br />
+Diamantslibning, også kaldt dermabrasion er en mild slibning af huden med små kunstige diamanter tilpasset din hud og tilstand. <br />
+<br />
+Diamantslibning er til dig der ønsker en forfinet hud og kan over flere behandlinger også arbejde på acne ar. Perfekt som tillæg til SAVE MY FACE, når betændelsen har lagt sig.<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_137108  slot_category_22963" data-minutes="30" data-price="275.00" data-category_id="22963" data-id="137108" data-wait="0" data-addon="0" data-name="HUDANALYSE // KONSULTATION">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">HUDANALYSE // KONSULTATION</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    275,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Grundig gennemgang af hudtype og tilstanden. <br />
+Vejledning og produkt anbefalinger målrette din hud. <br />
+<br />
+Hvis der planlægges et forløb over 4. Behandlinger, vil konsultationsprisen på kr. 295,- fratrækkes på slut behandlingen. (4. Behandlingspris).	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_137329  slot_category_22964" data-minutes="30" data-price="249.00" data-category_id="22964" data-id="137329" data-wait="0" data-addon="0" data-name="Vedligeholdelse Brow Lamination">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Vedligeholdelse Brow Lamination</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    249,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Imellem de 4-6 ugers ventetid på Brow Lamination tilbydes det vedligeholdelse af behandlingen.<br />
+<br />
+Der bliver peelet, lagt serum til håret, vokset, farvet og sluttes af med en fugtmaske og en oliekur til at forsegle og neutralisere håret efter farvningen.<br />
+<br />
+Dvs. Farve og Ret af bryn med Lycon voks og pincet. Efterfulgt at en bryn serum og oliekur, så håret er stærkt, sund og glansfuldt og står kvinskarpt indtil det kan lamineres igen efter 6-8 uger efter første behandling.<br />
+<br />
+(et hår gennemsnit levetid er fra 28 dage, men ligger i intervaller og er individuel hvor længe der tager for udskiftning)	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_143433  slot_category_22963" data-minutes="15" data-price="195.00" data-category_id="22963" data-id="143433" data-wait="0" data-addon="0" data-name="ALGE MASKE // MODELLING MASK">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ALGE MASKE // MODELLING MASK</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    195,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Algemaske som lægges ovenpå serum, som hjælper serummens rejse ned igennem hudens lag. Din hud vil være fugtmættet og stråle af glød!<br />
+<br />
+Perfekt inden &quot;a big day&quot; og kan tilpasses ung og moden hud.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_149714  slot_category_22962" data-minutes="30" data-price="245.00" data-category_id="22962" data-id="149714" data-wait="0" data-addon="0" data-name="LYCON // Hot voks - Bikini (KUN KVINDER)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot voks - Bikini (KUN KVINDER)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kun for kvinder.<br />
+<br />
+Der bliver taget rundt om trussekanten også nedre - så man kan se flot ud i bikini uden hår.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_149715  slot_category_22962" data-minutes="60" data-price="495.00" data-category_id="22962" data-id="149715" data-wait="0" data-addon="1" data-name="LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kun for kvinder.<br />
+<br />
+For og bag fjernelse af hår intimt. 	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_153581  slot_category_22964" data-minutes="30" data-price="149.00" data-category_id="22964" data-id="153581" data-wait="0" data-addon="0" data-name="Retning og formning af bryn.">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Retning og formning af bryn.</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    149,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Retning med Lycon voks og form med pincet.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_175020  slot_category_22964" data-minutes="30" data-price="245.00" data-category_id="22964" data-id="175020" data-wait="0" data-addon="0" data-name="Farvning bryn inkl. ret og form med voks og pincet">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning bryn inkl. ret og form med voks og pincet</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192593  slot_category_22963" data-minutes="70" data-price="675.00" data-category_id="22963" data-id="192593" data-wait="0" data-addon="1" data-name="GRATITUDE ansigtsbehandling (15+)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">GRATITUDE ansigtsbehandling (15+)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  70 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    675,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Alle hudtyper og tilstanden, alder 16+<br />
+Prisen er inklusiv at der behandles i ansigt, på hals og decolté.<br />
+<br />
+I Gratitude ansigtsbehandlingen, kommer vi godt rundt om det hele.<br />
+Til dig der ønsker at at din hud renset, regenereret, opstrammet og fugtmættet - så den stråler af glød!<br />
+<br />
+Behandlingen består af 2 x afrens, peeling, dybderens, ansigtsmassage med punkt afspænding, muskle opstramning og drænage. Olier aftenses og der påføres maske. Mens masken arbejder, bliver hænder og arme massageret.<br />
+<br />
+Varme klæde med C vitamin og afsluttende produkter. <br />
+<br />
+Under behandlingen arbejdes der med professionelle apparater tilpasset din hud og tilstand.<br />
+<br />
+Behandlingen er inkl. omklædning og kort konsultation og der bliver serveret lidt efter endt behandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192595  slot_category_22963" data-minutes="90" data-price="875.00" data-category_id="22963" data-id="192595" data-wait="0" data-addon="1" data-name="LOVEABLE, ryg- & ansigtsbehandling 15+">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LOVEABLE, ryg- & ansigtsbehandling 15+</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  90 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    875,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    LOVEABLE er til dig der har brug for, at komme helt ned i gear. <br />
+<br />
+Behandling består af rens, peeling og 20 min rygmassage, efterfulgt af 60 min ansigtsbehandling med professionelle produkter tilpasset din hud og tilstand. Der bruges tid på afspænding, massage og drænage. <br />
+<br />
+Under ansigts behandlingen bliver der også brugt profesionelle apparater.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192596  slot_category_22963" data-minutes="60" data-price="525.00" data-category_id="22963" data-id="192596" data-wait="0" data-addon="0" data-name="SAVE MY FACE ( 12-24 år)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">SAVE MY FACE ( 12-24 år)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    525,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    SAVE MY FACE behandlingen er til den unge hud, som er ramt af hormonelle forandringer og skal regeneres mildt, dybderense og beroliges.<br />
+<br />
+Det kan være grænseoverskridende og en uvant situation, at få en ansigtsbehandling og derfor er behandlingen heller ikke for lang.<br />
+<br />
+ Der vil oftes kræves flere behandlinger, ca. 28 dages mellemrum, for at opnå resultater og udrensning.<br />
+<br />
+Ligeledes kræver det en tilpasning af hudpleje rutine, med gode sunde produkter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_195327  slot_category_22963" data-minutes="70" data-price="2245.00" data-category_id="22963" data-id="195327" data-wait="0" data-addon="0" data-name="C-VITAMIN 4 BEHANDLING (KURFORLØB)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">C-VITAMIN 4 BEHANDLING (KURFORLØB)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  70 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    2.245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Behandlingen er til dig der døjer med fine linjer og mangler vitalitet i huden og er tilladt til ALLE HUDTYPER. C-vitamin er især god til at styrke og forynger huden.<br />
+<br />
+Det anbefales en c-vitamin behandling én gang om ugen = i alt 4 behandlinger for at give huden en energiboost, en mere jævn hudtone, lysne og opstramme. Huden bliver spækket med Antioxidant.<br />
+<br />
+Behandling består af 2 x afrens, peeling, dybderens, c-vitamin, maske, massage og afsluttende cremer.<br />
+<br />
+Der bliver brugt professionelle produkter fra Kalahari.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_196601  slot_category_22964" data-minutes="10" data-price="50.00" data-category_id="22964" data-id="196601" data-wait="0" data-addon="0" data-name="LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  10 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    50,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Dette tillæg kan tilkøbes ved Elleebana last lift eller brow lamination.<br />
+<br />
+Gælder kun ved farve af enten vipper eller bryn.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_202465  slot_category_22962" data-minutes="45" data-price="295.00" data-category_id="22962" data-id="202465" data-wait="0" data-addon="0" data-name="LYCON // Voks af arme eller skuldre">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Voks af arme eller skuldre</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    295,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210117  slot_category_22966" data-minutes="60" data-price="650.00" data-category_id="22966" data-id="210117" data-wait="0" data-addon="0" data-name="RYGBEHANDLING">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">RYGBEHANDLING</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    650,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    2 x afrens,  peeling tilpasset hudtype og tilstand, dybderens, massage, maske og afsluttende produkter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210118  slot_category_22963" data-minutes="20" data-price="215.00" data-category_id="22963" data-id="210118" data-wait="0" data-addon="0" data-name="TILLÆG: DYBDERENS AF ØRER">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: DYBDERENS AF ØRER</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  20 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    215,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Denne behandling, kan tillægges ansigtsbehandlinger - hvis du døjer med comedoner/hudorme i ørene, eller bag øret.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210120  slot_category_22963" data-minutes="75" data-price="785.00" data-category_id="22963" data-id="210120" data-wait="0" data-addon="0" data-name="HEAL & GLOW (15+)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">HEAL & GLOW (15+)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  75 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    785,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Denne ansigtsbehandling er til dig der har ujævnheder, ar eller blot ønsker vitalitet i huden og et GLOW.<br />
+<br />
+Obs: Der indgår apparater i denne behandling - og din hud vurderes efter afrens, om den kan tåle diamantslibningen ellers udskiftes den med en peeling tilpasset hud tilstand.<br />
+<br />
+2 x afrens, mild enzym peeling, diamantslibning, serum tilpasset hud tilstand og fokus, samt DermaOXY apperat til indsluse serummens rejse endnu længere ned i huden, så du opnår MAX fugtmætning i huden og fine linjer udviskes. Algemaskes indkapsler serum og afsluttes med massage og afsluttende produkter. 	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_211479  slot_category_22964" data-minutes="10" data-price="100.00" data-category_id="22964" data-id="211479" data-wait="0" data-addon="0" data-name="LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  10 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    100,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Dette tillæg skal pålægges Elleebana Lash Lift og Brow Lamination KOMBI. Farve både på vipper og bryn.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_214745  slot_category_22962" data-minutes="60" data-price="495.00" data-category_id="22962" data-id="214745" data-wait="0" data-addon="0" data-name="LYCON - Voks hel ben">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON - Voks hel ben</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Hele ben vokses.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_218005  slot_category_22962" data-minutes="5" data-price="125.00" data-category_id="22962" data-id="218005" data-wait="0" data-addon="0" data-name="TILLÆG ENZYMER (giver mindre hårvækst)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG ENZYMER (giver mindre hårvækst)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  5 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    125,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    El Kadif er et smart enzym program som man kan bekæmpe uønsket hårvækst.<br />
+Der skal investeres i et hjemmkit i klinikken, hvis hårvæksten skal ophøre. Dog vil du ved påførelse af enzymer under din voksbehandling, opleve at der kommer langt mindre hårvækst til næste voksbehandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_220005  slot_category_22966" data-minutes="110" data-price="750.00" data-category_id="22966" data-id="220005" data-wait="0" data-addon="0" data-name="DETOX & RELAX ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">DETOX & RELAX </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  110 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    750,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kroppen bliver afrenset 2 gange i tilpasset sæbe, efter hudtilstand. Derefter peeles den med den lækkereste kaffeskrub fra Kalahari, sammen med afrikanske botaniske olier.<br />
+Koffeinen starter blodomløb og kroppen bliver massageret og dræneret efter afrens og peeling.<br />
+<br />
+Du vil føle at din krop sværger og er fornyet af energi. Udover det bliver kroppen også renset naturligt for affaldsstoffer. Der anbefales at drikke 1-2 L. Væske efter behandlingen for at rense kroppen bagefter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_222659  slot_category_22963" data-minutes="15" data-price="245.00" data-category_id="22963" data-id="222659" data-wait="0" data-addon="0" data-name="TILLÆG: MASSAGE (Decolleté. hals og nakke)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: MASSAGE (Decolleté. hals og nakke)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kan kombineres med behandlinger og ikke tilkøbes alene. 15 min massage af decollete, hals og nakke - afsluttes med afspænding af punkter i neurokranie/hovedebundsmassage massage.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229739  slot_category_22964" data-minutes="15" data-price="145.00" data-category_id="22964" data-id="229739" data-wait="0" data-addon="0" data-name="Farvning af bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229740  slot_category_37803" data-minutes="120" data-price="945.00" data-category_id="37803" data-id="229740" data-wait="0" data-addon="1" data-name="VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  120 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    945,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Velværsmassage efterfulgt af FLOW ansigtsbehandling.<br />
+<br />
+Hele Lympfesystemet bliver dræneret for affaldstoffer og vejrtrækning kommer ned i maven. <br />
+<br />
+Det anbefaldes at drikke op til 2 L. efter behandlingen. Og tiden er ink. omklædning.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229741  slot_category_37803" data-minutes="150" data-price="1075.00" data-category_id="37803" data-id="229741" data-wait="0" data-addon="1" data-name="LUKSUS-Pakken">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LUKSUS-Pakken</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+
+		                  						  150 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    1.075,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Gratitude (Anti-age 25+) ansigtsbehandling &amp; Elleebana Lash og Brow KOMBO.	                  </div>
+	                  	                </div>
+	              </div>
+				  
+	            </div>
+
+	          </div>-->
+
+	      </div>
+
+          <div class="summary service_summary" style="display: none">
+            <div class="row">
+
+              <div class="col-md-7 col-sm-7 labels">
+              </div>
+              <div class="col-md-2 col-sm-2 total" >
+                <minute class="service_minutes">0</minute> min                <span><currency class="service_currency" >0</currency> kr.</span>
+              </div>
+              <div class="col-md-3 col-sm-3" id="goFurtherServiceBtn">
+                <a href="#" class="btn btn-success btn-full departmentSlots service-go-btn" data-field="service" data-visual_name="Service valgt" data-id="1" data-next="treat">Videre</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+      
+      
+      <!-- add ons -->
+	<div class="step addon_service_box" style="display: none">
+
+        <h2><i class="icon-plus-circle"></i> Tilvalg</h2>
+        <span class="choice"></span>
+
+        <div class="content">
+	      <div class="">
+
+	          <div class="widget-category" style="display: block">
+
+	            <div class="slots">
+
+				  	              <div class="slot slotproductr chooseService slot_service_129029  slot_category_22964" data-minutes="60" data-price="345.00" data-category_id="22964" data-id="129029" data-wait="0" data-name="ELLEBANA // Lash Lift med biotinkur. ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ELLEBANA // Lash Lift med biotinkur. </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Permanent vippebuk på naturvippen med biotinkur. Holder op til 4-6 uger og kan genløftes efter 4 uger.<br />
+<br />
+Der kan tilkøbes farve af vipper til denne behandling til kr. 50,-<br />
+<br />
+Anbefaledes at købe en plejende lotion til vipperne fra Ellebana Elleplex til 320,-	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_129033  slot_category_22964" data-minutes="50" data-price="345.00" data-category_id="22964" data-id="129033" data-wait="0" data-name="Brow Lamination med biotinkur. ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Brow Lamination med biotinkur. </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  50 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Brow Lamination er en permanetbehandling af bryn. Hårene behandles med en plejende kreatinvæske, som hjælper med at manipulerer med formen og groretningen og får dine bryn til at synes længere og fyldigere. <br />
+Behandlingen sluttes af med biotinkur. Holder op til 6 - 8 uger og må gentages efter 4 uger.<br />
+<br />
+Der kan tilkøbes farve af bryn til kr.50,- til denne behandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_129034  slot_category_22966" data-minutes="60" data-price="599.00" data-category_id="22966" data-id="129034" data-wait="0" data-name="VELVÆRSMASSAGE">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">VELVÆRSMASSAGE</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    599,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Massagen er fokuseret afslapning og drænering. Afhjælpe ømhed og kan give en langvarig ro i nervesystemet.<br />
+<br />
+60 min velværes kropsmassage i Tina Lykkegaard nærende olie.<br />
+<br />
+Tiden er inkl. omklædning.<br />
+<br />
+<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130709  slot_category_22962" data-minutes="45" data-price="245.00" data-category_id="22962" data-id="130709" data-wait="0" data-name="LYCON // Hot Voks - Halv ansigt (fra næse til hage)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Halv ansigt (fra næse til hage)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130710  slot_category_22962" data-minutes="15" data-price="120.00" data-category_id="22962" data-id="130710" data-wait="0" data-name="LYCON // Hot Voks - Overlæbe ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Overlæbe </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    120,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130711  slot_category_22962" data-minutes="15" data-price="175.00" data-category_id="22962" data-id="130711" data-wait="0" data-name="LYCON // Hot Voks - Hage (også under hage)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Hage (også under hage)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    175,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130712  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130712" data-wait="0" data-name="LYCON // Hot Voks - Bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130713  slot_category_22962" data-minutes="30" data-price="245.00" data-category_id="22962" data-id="130713" data-wait="0" data-name="LYCON // Hot Voks - Axil (Armhule)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Axil (Armhule)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130714  slot_category_22962" data-minutes="45" data-price="345.00" data-category_id="22962" data-id="130714" data-wait="0" data-name="LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ). ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ). </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    345,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130715  slot_category_22963" data-minutes="60" data-price="545.00" data-category_id="22963" data-id="130715" data-wait="0" data-name="FLOW ansigtsbehandling  (velegnet til alle)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">FLOW ansigtsbehandling  (velegnet til alle)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    545,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Tilladt til alle hudtyper og alder. Både ansigt, hals og bryst bliver behandlet.<br />
+<br />
+En ansigtsbehandling med Tina Lykkegaards ekstremt nærende og fugtgivende produkter. Behandlingen giver næring, fugt og balance i huden. Til dig der bare ønsker at massagen skal være i højsædet igennem hele behandlingen og samtidig gå fra behandlingen med hud der stråler og føles gennemfugtet og plejet.<br />
+Obs - der bliver IKKE dybderenset i denne behandling, da det handler om at holde ro og velvær i kroppen, når gæsten forlader briksen.<br />
+<br />
+Behandles med Tina Lykkegaard produkter:<br />
+2 gange afrens i rensebalm, peeling med kulmaske, Ansigtsmassage, fugtmaske med Lysterapi.<br />
+Behandlingen afsluttes med varme klæder med Kamille og produkter fra Tina Lykkegaard.<br />
+<br />
+Tiden er inkl. omklædning, kort konsultation og der vil blive serveret lidt til ganen.<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130716  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130716" data-wait="0" data-name="LYCON // Hot Voks - Næse ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Næse </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130717  slot_category_22962" data-minutes="15" data-price="145.00" data-category_id="22962" data-id="130717" data-wait="0" data-name="LYCON // Hot Voks - Øre">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Øre</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_130762  slot_category_22964" data-minutes="75" data-price="495.00" data-category_id="22964" data-id="130762" data-wait="0" data-name="ELLEBANA // Lash Lift og Brow Lamination KOMBI ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ELLEBANA // Lash Lift og Brow Lamination KOMBI </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  75 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Lash Lift og Brow Lamination begge med Biotionkur. <br />
+<br />
+Elleplex Conditioner anbefaledes at købes med som pleje til kr. 320,-.<br />
+(Ligesom hos frisøren, så anbefaledes håret næring efter en behandling med kemi)<br />
+<br />
+Der kan tilkøbes farve til bryn og vipper til kr. 100,-	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131064  slot_category_22964" data-minutes="15" data-price="145.00" data-category_id="22964" data-id="131064" data-wait="0" data-name="Farvning af vipper">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af vipper</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131065  slot_category_22964" data-minutes="30" data-price="225.00" data-category_id="22964" data-id="131065" data-wait="0" data-name="Farvning af vipper og bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af vipper og bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    225,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_131067  slot_category_22964" data-minutes="45" data-price="295.00" data-category_id="22964" data-id="131067" data-wait="0" data-name="Farvning af Vipper og Bryn inkl. ret & formning af bryn.">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af Vipper og Bryn inkl. ret & formning af bryn.</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    295,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_135584  slot_category_22963" data-minutes="30" data-price="275.00" data-category_id="22963" data-id="135584" data-wait="0" data-name="TILLÆG: DIAMANTSLIBNING">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: DIAMANTSLIBNING</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    275,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Tillægs behandling - og kan kun tilføjes til en ansigtsbehandling og ikke en stand alone behandling.<br />
+<br />
+Diamantslibning, også kaldt dermabrasion er en mild slibning af huden med små kunstige diamanter tilpasset din hud og tilstand. <br />
+<br />
+Diamantslibning er til dig der ønsker en forfinet hud og kan over flere behandlinger også arbejde på acne ar. Perfekt som tillæg til SAVE MY FACE, når betændelsen har lagt sig.<br />
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_137108  slot_category_22963" data-minutes="30" data-price="275.00" data-category_id="22963" data-id="137108" data-wait="0" data-name="HUDANALYSE // KONSULTATION">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">HUDANALYSE // KONSULTATION</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    275,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Grundig gennemgang af hudtype og tilstanden. <br />
+Vejledning og produkt anbefalinger målrette din hud. <br />
+<br />
+Hvis der planlægges et forløb over 4. Behandlinger, vil konsultationsprisen på kr. 295,- fratrækkes på slut behandlingen. (4. Behandlingspris).	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_137329  slot_category_22964" data-minutes="30" data-price="249.00" data-category_id="22964" data-id="137329" data-wait="0" data-name="Vedligeholdelse Brow Lamination">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Vedligeholdelse Brow Lamination</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    249,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Imellem de 4-6 ugers ventetid på Brow Lamination tilbydes det vedligeholdelse af behandlingen.<br />
+<br />
+Der bliver peelet, lagt serum til håret, vokset, farvet og sluttes af med en fugtmaske og en oliekur til at forsegle og neutralisere håret efter farvningen.<br />
+<br />
+Dvs. Farve og Ret af bryn med Lycon voks og pincet. Efterfulgt at en bryn serum og oliekur, så håret er stærkt, sund og glansfuldt og står kvinskarpt indtil det kan lamineres igen efter 6-8 uger efter første behandling.<br />
+<br />
+(et hår gennemsnit levetid er fra 28 dage, men ligger i intervaller og er individuel hvor længe der tager for udskiftning)	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_143433  slot_category_22963" data-minutes="15" data-price="195.00" data-category_id="22963" data-id="143433" data-wait="0" data-name="ALGE MASKE // MODELLING MASK">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">ALGE MASKE // MODELLING MASK</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    195,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Algemaske som lægges ovenpå serum, som hjælper serummens rejse ned igennem hudens lag. Din hud vil være fugtmættet og stråle af glød!<br />
+<br />
+Perfekt inden &quot;a big day&quot; og kan tilpasses ung og moden hud.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_149714  slot_category_22962" data-minutes="30" data-price="245.00" data-category_id="22962" data-id="149714" data-wait="0" data-name="LYCON // Hot voks - Bikini (KUN KVINDER)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot voks - Bikini (KUN KVINDER)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kun for kvinder.<br />
+<br />
+Der bliver taget rundt om trussekanten også nedre - så man kan se flot ud i bikini uden hår.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_149715  slot_category_22962" data-minutes="60" data-price="495.00" data-category_id="22962" data-id="149715" data-wait="0" data-name="LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kun for kvinder.<br />
+<br />
+For og bag fjernelse af hår intimt. 	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_153581  slot_category_22964" data-minutes="30" data-price="149.00" data-category_id="22964" data-id="153581" data-wait="0" data-name="Retning og formning af bryn.">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Retning og formning af bryn.</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    149,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Retning med Lycon voks og form med pincet.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_175020  slot_category_22964" data-minutes="30" data-price="245.00" data-category_id="22964" data-id="175020" data-wait="0" data-name="Farvning bryn inkl. ret og form med voks og pincet">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning bryn inkl. ret og form med voks og pincet</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  30 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192593  slot_category_22963" data-minutes="70" data-price="675.00" data-category_id="22963" data-id="192593" data-wait="0" data-name="GRATITUDE ansigtsbehandling (15+)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">GRATITUDE ansigtsbehandling (15+)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  70 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    675,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Alle hudtyper og tilstanden, alder 16+<br />
+Prisen er inklusiv at der behandles i ansigt, på hals og decolté.<br />
+<br />
+I Gratitude ansigtsbehandlingen, kommer vi godt rundt om det hele.<br />
+Til dig der ønsker at at din hud renset, regenereret, opstrammet og fugtmættet - så den stråler af glød!<br />
+<br />
+Behandlingen består af 2 x afrens, peeling, dybderens, ansigtsmassage med punkt afspænding, muskle opstramning og drænage. Olier aftenses og der påføres maske. Mens masken arbejder, bliver hænder og arme massageret.<br />
+<br />
+Varme klæde med C vitamin og afsluttende produkter. <br />
+<br />
+Under behandlingen arbejdes der med professionelle apparater tilpasset din hud og tilstand.<br />
+<br />
+Behandlingen er inkl. omklædning og kort konsultation og der bliver serveret lidt efter endt behandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192595  slot_category_22963" data-minutes="90" data-price="875.00" data-category_id="22963" data-id="192595" data-wait="0" data-name="LOVEABLE, ryg- & ansigtsbehandling 15+">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LOVEABLE, ryg- & ansigtsbehandling 15+</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  90 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    875,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    LOVEABLE er til dig der har brug for, at komme helt ned i gear. <br />
+<br />
+Behandling består af rens, peeling og 20 min rygmassage, efterfulgt af 60 min ansigtsbehandling med professionelle produkter tilpasset din hud og tilstand. Der bruges tid på afspænding, massage og drænage. <br />
+<br />
+Under ansigts behandlingen bliver der også brugt profesionelle apparater.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_192596  slot_category_22963" data-minutes="60" data-price="525.00" data-category_id="22963" data-id="192596" data-wait="0" data-name="SAVE MY FACE ( 12-24 år)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">SAVE MY FACE ( 12-24 år)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    525,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    SAVE MY FACE behandlingen er til den unge hud, som er ramt af hormonelle forandringer og skal regeneres mildt, dybderense og beroliges.<br />
+<br />
+Det kan være grænseoverskridende og en uvant situation, at få en ansigtsbehandling og derfor er behandlingen heller ikke for lang.<br />
+<br />
+ Der vil oftes kræves flere behandlinger, ca. 28 dages mellemrum, for at opnå resultater og udrensning.<br />
+<br />
+Ligeledes kræver det en tilpasning af hudpleje rutine, med gode sunde produkter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_195327  slot_category_22963" data-minutes="70" data-price="2245.00" data-category_id="22963" data-id="195327" data-wait="0" data-name="C-VITAMIN 4 BEHANDLING (KURFORLØB)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">C-VITAMIN 4 BEHANDLING (KURFORLØB)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  70 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    2.245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Behandlingen er til dig der døjer med fine linjer og mangler vitalitet i huden og er tilladt til ALLE HUDTYPER. C-vitamin er især god til at styrke og forynger huden.<br />
+<br />
+Det anbefales en c-vitamin behandling én gang om ugen = i alt 4 behandlinger for at give huden en energiboost, en mere jævn hudtone, lysne og opstramme. Huden bliver spækket med Antioxidant.<br />
+<br />
+Behandling består af 2 x afrens, peeling, dybderens, c-vitamin, maske, massage og afsluttende cremer.<br />
+<br />
+Der bliver brugt professionelle produkter fra Kalahari.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_196601  slot_category_22964" data-minutes="10" data-price="50.00" data-category_id="22964" data-id="196601" data-wait="0" data-name="LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  10 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    50,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Dette tillæg kan tilkøbes ved Elleebana last lift eller brow lamination.<br />
+<br />
+Gælder kun ved farve af enten vipper eller bryn.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_202465  slot_category_22962" data-minutes="45" data-price="295.00" data-category_id="22962" data-id="202465" data-wait="0" data-name="LYCON // Voks af arme eller skuldre">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON // Voks af arme eller skuldre</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  45 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    295,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210117  slot_category_22966" data-minutes="60" data-price="650.00" data-category_id="22966" data-id="210117" data-wait="0" data-name="RYGBEHANDLING">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">RYGBEHANDLING</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    650,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    2 x afrens,  peeling tilpasset hudtype og tilstand, dybderens, massage, maske og afsluttende produkter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210118  slot_category_22963" data-minutes="20" data-price="215.00" data-category_id="22963" data-id="210118" data-wait="0" data-name="TILLÆG: DYBDERENS AF ØRER">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: DYBDERENS AF ØRER</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  20 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    215,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Denne behandling, kan tillægges ansigtsbehandlinger - hvis du døjer med comedoner/hudorme i ørene, eller bag øret.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_210120  slot_category_22963" data-minutes="75" data-price="785.00" data-category_id="22963" data-id="210120" data-wait="0" data-name="HEAL & GLOW (15+)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">HEAL & GLOW (15+)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  75 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    785,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Denne ansigtsbehandling er til dig der har ujævnheder, ar eller blot ønsker vitalitet i huden og et GLOW.<br />
+<br />
+Obs: Der indgår apparater i denne behandling - og din hud vurderes efter afrens, om den kan tåle diamantslibningen ellers udskiftes den med en peeling tilpasset hud tilstand.<br />
+<br />
+2 x afrens, mild enzym peeling, diamantslibning, serum tilpasset hud tilstand og fokus, samt DermaOXY apperat til indsluse serummens rejse endnu længere ned i huden, så du opnår MAX fugtmætning i huden og fine linjer udviskes. Algemaskes indkapsler serum og afsluttes med massage og afsluttende produkter. 	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_211479  slot_category_22964" data-minutes="10" data-price="100.00" data-category_id="22964" data-id="211479" data-wait="0" data-name="LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  10 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    100,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Dette tillæg skal pålægges Elleebana Lash Lift og Brow Lamination KOMBI. Farve både på vipper og bryn.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_214745  slot_category_22962" data-minutes="60" data-price="495.00" data-category_id="22962" data-id="214745" data-wait="0" data-name="LYCON - Voks hel ben">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LYCON - Voks hel ben</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  60 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    495,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Hele ben vokses.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_218005  slot_category_22962" data-minutes="5" data-price="125.00" data-category_id="22962" data-id="218005" data-wait="0" data-name="TILLÆG ENZYMER (giver mindre hårvækst)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG ENZYMER (giver mindre hårvækst)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  5 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    125,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    El Kadif er et smart enzym program som man kan bekæmpe uønsket hårvækst.<br />
+Der skal investeres i et hjemmkit i klinikken, hvis hårvæksten skal ophøre. Dog vil du ved påførelse af enzymer under din voksbehandling, opleve at der kommer langt mindre hårvækst til næste voksbehandling.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_220005  slot_category_22966" data-minutes="110" data-price="750.00" data-category_id="22966" data-id="220005" data-wait="0" data-name="DETOX & RELAX ">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">DETOX & RELAX </span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  110 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    750,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kroppen bliver afrenset 2 gange i tilpasset sæbe, efter hudtilstand. Derefter peeles den med den lækkereste kaffeskrub fra Kalahari, sammen med afrikanske botaniske olier.<br />
+Koffeinen starter blodomløb og kroppen bliver massageret og dræneret efter afrens og peeling.<br />
+<br />
+Du vil føle at din krop sværger og er fornyet af energi. Udover det bliver kroppen også renset naturligt for affaldsstoffer. Der anbefales at drikke 1-2 L. Væske efter behandlingen for at rense kroppen bagefter.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_222659  slot_category_22963" data-minutes="15" data-price="245.00" data-category_id="22963" data-id="222659" data-wait="0" data-name="TILLÆG: MASSAGE (Decolleté. hals og nakke)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">TILLÆG: MASSAGE (Decolleté. hals og nakke)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    245,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Kan kombineres med behandlinger og ikke tilkøbes alene. 15 min massage af decollete, hals og nakke - afsluttes med afspænding af punkter i neurokranie/hovedebundsmassage massage.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229739  slot_category_22964" data-minutes="15" data-price="145.00" data-category_id="22964" data-id="229739" data-wait="0" data-name="Farvning af bryn">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">Farvning af bryn</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  15 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    145,00 kr.
+	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229740  slot_category_37803" data-minutes="120" data-price="945.00" data-category_id="37803" data-id="229740" data-wait="0" data-name="VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  120 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    945,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Velværsmassage efterfulgt af FLOW ansigtsbehandling.<br />
+<br />
+Hele Lympfesystemet bliver dræneret for affaldstoffer og vejrtrækning kommer ned i maven. <br />
+<br />
+Det anbefaldes at drikke op til 2 L. efter behandlingen. Og tiden er ink. omklædning.	                  </div>
+	                  	                </div>
+	              </div>
+				  	              <div class="slot slotproductr chooseService slot_service_229741  slot_category_37803" data-minutes="150" data-price="1075.00" data-category_id="37803" data-id="229741" data-wait="0" data-name="LUKSUS-Pakken">
+	                <div class="row">
+	                  <div class="col-md-8 col-sm-8">
+	                    <span class="title">LUKSUS-Pakken</span>
+	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 duration">
+		                  						  150 min.
+						  	                  </div>
+	                  <div class="col-md-2 col-sm-2 col-xs-6 price">
+	                    1.075,00 kr.
+	                  </div>
+	                  	                  <div class="col-md-12 col-sm-12 description">
+	                    Gratitude (Anti-age 25+) ansigtsbehandling &amp; Elleebana Lash og Brow KOMBO.	                  </div>
+	                  	                </div>
+	              </div>
+				  
+	            </div>
+
+	          </div>
+
+	      </div>
+
+        <div class="mobile-next-bar" style="display: none">
+		  
+          <span class="total"><currency class="service_currency" >0</currency> kr.<span><minute class="service_minutes">0</minute> min</span></span>
+
+          <a href="#" class="btn btn-success departmentSlots service-go-btn" data-field="service" data-addonskip="1" data-visual_name="Service valgt" data-from="addon" data-id="1" data-next="treat">Videre</a>
+
+        </div>
+
+          <div class="summary" style="display: none">
+            <div class="row">
+
+              <div class="col-md-7 col-sm-7 labels">
+              </div>
+              <div class="col-md-2 col-sm-2 total" >
+                <minute class="service_minutes">0</minute> min                <span><currency class="service_currency" >0</currency> kr.</span>
+              </div>
+              <div class="col-md-3 col-sm-3" id="goFurtherServiceBtn">
+                <a href="#" class="btn btn-success btn-full departmentSlots service-go-btn" data-addonskip="1" data-from="addon" data-field="service" data-visual_name="Service valgt" data-id="1" data-next="treat">Videre</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+	        <div class="step treat_box">
+
+        <h2><i class="icon-users"></i> Vælg behandler</h2>
+        <span class="choice"></span>
+
+        <div class="content">
+
+          <div class="slots employeeSlotWrapper">
+
+	  	       <center>Vent venligst...</center>
+
+          </div>
+
+        </div>
+
+      </div>
+	        <div class="step dateTime_box">
+
+        <h2><i class="icon-calendar-full"></i> Vælg dato & tid</h2>
+		<span class="choice"></span>
+
+        <div class="content">
+
+          <div class="row">
+
+            <div class="col-lg-7 col-md-6 col-sm-7">
+              <div class="date-heading">Ledige tider <span class="activeCalendarDay"></span></div>
+
+              <div class="times row">
+                <div class="col-md-12 col-sm-12 availableTimes">
+	                <center>Vent venligst</center>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="step informationb_box">
+
+        <h2><i class="icon-calendar-user"></i> Kontaktoplysninger</h2>
+		<span class="choice"></span>
+
+        <div class="content">
+			          <div class="col-md-12 mb-20 text-center facebookNumberValiBox" style="display: none">
+		  	
+            <a href="#" class="btn btn-lg btn-facebook btn-facebook-widget"><i class="fa fa-facebook"></i> Book med Facebook</a>
+
+            <span class="alt-login">eller</span>
+            <a href="#" class="btn btn-success btn-email-number btn-lg verify-with-number">Book med telefonnummer</a>
+
+          </div>
+
+          <div class="col-md-12 mb-20 numberValiBox" style="display: block">
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Telefon</label>
+                <div class="col-sm-10 mb-10">
+                  <input type="tel" class="form-control phoneNumber mobile-phone-number phoneflagbox" value="" placeholder="Telefon">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10 col-md-offset-2">
+                  <a href="#" class="btn btn-success">Næste »</a>
+                  <span class="back" style="padding-left: 15px; cursor: pointer; display: none">Gå tilbage</span>
+                </div>
+              </div>
+          </div>
+
+		  	  <div class="form-group choosed_profile_box" style="line-height: 25px">
+                <label class="col-sm-3 control-label" style="padding-top: 8px">Valgt profil</label>
+                <div class="col-sm-9 mb-10" style="margin-bottom: 20px">
+                	<select class="form-control connected_customers_l" name="customer_id_set">
+	                	<option value="new">Booker du for en anden person? Vælg denne</option>
+                	</select>
+                </div>
+              </div>
+              
+              <div class="form-group choosed_profile_box" style="line-height: 25px">
+                <div class="col-sm-12 mb-10">
+                	<hr style="margin-bottom: 10px; margin-top: 0px;" />
+                </div>
+              </div>
+              		  	 
+              <div class="form-group" style="line-height: 25px">
+                <label class="col-sm-3 control-label">Navn *</label>
+                <div class="col-sm-9 mb-10">
+                  <input type="text" class="form-control" name="info_name" placeholder="Navn">
+                </div>
+              </div>
+              <div class="form-group" style="line-height: 25px">
+                <label class="col-sm-3 control-label">Email *</label>
+                <div class="col-sm-9 mb-10">
+                  <input type="email" class="form-control" name="info_email" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group" style="line-height: 25px">
+                <label class="col-sm-3 control-label">Telefon *</label>
+                <div class="col-sm-9 mb-10">
+                  <input type="tel" class="form-control mobile-phone-number phoneflagbox" name="number" placeholder="Telefon">
+                </div>
+			</div>
+                <label class="col-sm-3 control-label"></label>
+                <div class="col-sm-9 mb-10">
+                  <label>
+                  <input type="checkbox" class="acceptConditions" value="1" />
+                  <span class="permissionstext">Jeg har læst og accepteret <a href="#" data-toggle="modal" data-target="#acceptConditions">betingelserne</a>.</span>
+                  </label>
+                  
+                  				  <input type="hidden" name="coronapas" value="0" />
+				                                      <label class="newsletter_sms_box">
+                  <input type="checkbox" class="acceptSmsEmail" name="marketing" style="" value="1"  />
+                  <span style="">
+                  Jeg ønsker at modtage relevante informationer via e-mail og sms <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="top" title="Ved at acceptere følgende, accepterer du, at der må sendes relevante tilbud og informationer omkring Feminine via e-mail og sms"></i>
+                  </span>
+                  </label>
+                  
+                  <div class="custompermission_wrap_box">
+                                    </div>
+                  
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-9 col-md-offset-3">
+                  <a href="#" class="btn btn-success departmentSlots informationb-btn" data-field="informationb" data-visual_name="" data-next="confirmit">Næste »</a>
+                  <!--<span class="back" style="padding-left: 15px; cursor: pointer;">Gå tilbage</span>-->
+                </div>
+
+                <div class="col-sm-9 col-md-offset-3 fillAllFields" style="display: none; margin-top: 20px">
+	                <div class="clearfix"></div>
+	                <div class="alert alert-danger">Udfyld alle felterne herover og accepter betingelserne for at gå videre</div>
+                </div>
+                
+                <div class="col-sm-9 col-md-offset-3 fillWhitespace" style="display: none; margin-top: 20px">
+	                <div class="clearfix"></div>
+	                <div class="alert alert-danger">Du skal udfylde dit efternavn for at gå videre</div>
+                </div>
+
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+	  </div>
+
+</section>
+
+  
+<div class="modal fade auto" id="newAppointment" tabindex="1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#info" aria-controls="home" role="tab" data-toggle="tab">Oplysninger</a></li>
+          </ul>
+
+      </div>
+      <div class="modal-body">
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="info">
+
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Tidspunkt</label>
+                <div class="col-md-7">
+                  <input type="text" class="date start form-control mb-10" placeholder="Startdato" />
+                </div>
+                <div class="col-md-3">
+                  <input type="text" class="time-scroll form-control" placeholder="8:00" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Service</label>
+                <div class="col-sm-10">
+                  <select class="form-control mb-10">
+                    <option data-subtext="30 min">Herreklip</option>
+                    <option data-subtext="45 min">Dameklip</option>
+                    <option data-subtext="60 min">Farvning</option>
+                  </select>
+                  <div class="row mb-10">
+                    <div class="col-md-6">
+                      <div class="input-group">
+                        <input type="phone" class="form-control mb-10" placeholder="395">
+                        <div class="input-group-addon">DKK</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group">
+                        <input type="phone" class="form-control mb-10" placeholder="30">
+                        <div class="input-group-addon">min.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Note</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" placeholder="..." />
+                </div>
+              </div>
+              <hr />
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Kunde</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="Søg...">
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Annuller</button>
+          <button type="submit" name="submit" value="1" class="btn btn-success">Opret tid</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

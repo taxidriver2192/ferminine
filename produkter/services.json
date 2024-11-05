@@ -1,20 +1,226 @@
 [
     {
-        "id": "22962",
-        "name": "LYCON VOKSBEHANDLINGER",
+        "id": "22963",
+        "name": "Ansigtsbehandlinger",
+        "services": [
+            {
+                "service_id": "130715",
+                "name": "FLOW ansigtsbehandling  (velegnet til alle)",
+                "duration": "60 min.",
+                "price": "545,00 kr.",
+                "description": "Tilladt til alle hudtyper og alder. Både ansigt, hals og bryst bliver behandlet.\n\r\nEn ansigtsbehandling med Tina Lykkegaards ekstremt nærende og fugtgivende produkter. Behandlingen giver næring, fugt og balance i huden. Til dig der bare ønsker at massagen skal være i højsædet igennem hele behandlingen og samtidig gå fra behandlingen med hud der stråler og føles gennemfugtet og plejet.\r\nObs - der bliver IKKE dybderenset i denne behandling, da det handler om at holde ro og velvær i kroppen, når gæsten forlader briksen.\n\r\nBehandles med Tina Lykkegaard produkter:\r\n2 gange afrens i rensebalm, peeling med kulmaske, Ansigtsmassage, fugtmaske med Lysterapi.\r\nBehandlingen afsluttes med varme klæder med Kamille og produkter fra Tina Lykkegaard.\n\r\nTiden er inkl. omklædning, kort konsultation og der vil blive serveret lidt til ganen."
+            },
+            {
+                "service_id": "137108",
+                "name": "HUDANALYSE // KONSULTATION",
+                "duration": "30 min.",
+                "price": "295,00 kr.",
+                "description": "Grundig gennemgang af hudtype og tilstanden. \r\nVejledning og produkt anbefalinger målrette din hud. \n\r\nHvis der planlægges et forløb over 4. Behandlinger, vil konsultationsprisen på kr. 295,- fratrækkes på slut behandlingen. (4. Behandlingspris)."
+            },
+            {
+                "service_id": "137109",
+                "name": "BIOPEN Microneedling",
+                "duration": "75 min.",
+                "price": "1.195,00 kr.",
+                "description": "Biopen microneedling behandlinger er med den nyeste teknologi; i stand til at arbejde med LED (rød og blåt lys) og EMS (microstrøm) samtidigt med microneedling, som skaber en endnu mere optimal behandling til hjælp med at penetrere ampul ned i hudens lag.\r\nBehandlingen arbejdes med 1,5 mm i hudlag og der kan tilkøbe bedøvelse i næste vindue i bookingen.\n\r\nFORDELE VED MICRONEEDLING:\r\nModvirker og forbedre pigmentering, fine og mimiske linjer, ar, syrekappen ift. eksemer/ ubalancer - og Rødme, herunder også rødme fra Rosacea. Dog ikke ekstra sensitive hudtyper. \r\nEr man usikker her, anbefales en hudkonsultation.\n\r\nArbejder INTENS på at danne nye forbedret hudceller, spækket med kollagen, hyaluronsyre og elastin fra Dermis, så bindevævet bliver stærkt og fornyet.\n\r\nBehandlingen indeholder 2 gange afrens, mild enzym peeling, bedøvelse, microneedling med serum målrettet hudtype og tilstande fra Kalahari, samt maske og afsluttede produkter.\n\r\nI prisen er der en aktiv Ampul, til at behandle i de første dage, samt et mini kit til hjemmepleje.\n\r\nDer anbefales på det kraftigste at investere i Kalahari basis FASE 1 produkter herunder: Tilpasset rens, tonic, serum og cream (evt. barriere cream) for at kunne ramme de forventninger og ønske der er fokus på.\n\r\nAlle produkter komplementere hinanden og virker aktivt sammen med hinanden.\r\n80 % af vores resultater ligger i hjemmeplejen (forvent basis serie FASE 1 produkter til omkring kr.1000-1500,- FULLSIZE str.)\n\r\nFor at kunne arbejde på dybe rynker, ar, pigmentering eller andre gener, vil et forløb over min.3 behandlinger anbefales. Denne beslutning skal tage ved 1 behandling.\r\nPakkeløsningen med rabat på 3 behandlinger af BIOPEN microneedling findes i RABAT PAKKER.\n\r\nDer skal gå 28. dage +/- imellem bookningerne. Huden vil være rød og varm efter behandlingen og  man kan  forvente at begynde at skælle en smugle efter en dag eller tre."
+            },
+            {
+                "service_id": "192593",
+                "name": "GRATITUDE ansigtsbehandling (15+)",
+                "duration": "70 min.",
+                "price": "675,00 kr.",
+                "description": "Alle hudtyper og tilstanden, alder 16+\r\nPrisen er inklusiv at der behandles i ansigt, på hals og decolté.\n\r\nI Gratitude ansigtsbehandlingen, kommer vi godt rundt om det hele.\r\nTil dig der ønsker at at din hud renset, regenereret, opstrammet og fugtmættet - så den stråler af glød!\n\r\nBehandlingen består af 2 x afrens, peeling, dybderens, ansigtsmassage med punkt afspænding, muskle opstramning og drænage. Olier aftenses og der påføres maske. Mens masken arbejder, bliver hænder og arme massageret.\n\r\nVarme klæde med C vitamin og afsluttende produkter. \n\r\nUnder behandlingen arbejdes der med professionelle apparater tilpasset din hud og tilstand.\n\r\nBehandlingen er inkl. omklædning og kort konsultation og der bliver serveret lidt efter endt behandling."
+            },
+            {
+                "service_id": "192596",
+                "name": "SAVE MY FACE ( 12-24 år)",
+                "duration": "60 min.",
+                "price": "525,00 kr.",
+                "description": "SAVE MY FACE behandlingen er til den unge hud, som er ramt af hormonelle forandringer og skal regeneres mildt, dybderense og beroliges.\n\r\nDet kan være grænseoverskridende og en uvant situation, at få en ansigtsbehandling og derfor er behandlingen heller ikke for lang.\n\r\n Der vil oftes kræves flere behandlinger, ca. 28 dages mellemrum, for at opnå resultater og udrensning.\n\r\nLigeledes kræver det en tilpasning af hudpleje rutine, med gode sunde produkter."
+            },
+            {
+                "service_id": "210120",
+                "name": "HEAL & GLOW (15+)",
+                "duration": "75 min.",
+                "price": "985,00 kr.",
+                "description": "Denne ansigtsbehandling er til dig der har ujævnheder, ar eller blot ønsker vitalitet i huden og et GLOW.\n\r\nObs: Der indgår apparater i denne behandling - og din hud vurderes efter afrens, om den kan tåle diamantslibningen ellers udskiftes den med en peeling tilpasset hud tilstand.\n\r\n2 x afrens, mild enzym peeling, diamantslibning, serum tilpasset hud tilstand og fokus, samt DermaOXY apperat til indsluse serummens rejse endnu længere ned i huden, så du opnår MAX fugtmætning i huden og fine linjer udviskes. Algemaskes indkapsler serum og afsluttes med massage og afsluttende produkter."
+            },
+            {
+                "service_id": "317564",
+                "name": "BRIGHT LIKE A DIAMANT / Ansigtsbehandling med diamantslibning",
+                "duration": "60 min.",
+                "price": "875,00 kr.",
+                "description": "Behandlingen indeholde 2 x afrens,  diamantslibning, mild enzym peeling, let dybderens, hvis huden tillader det, Massage og afsluttende produkter.\n\r\nAnbefaldes til alle, men ikke sensive tilstand, iflamationstilstande som rosascea eller Acne med paler og pustler (Hud i Betændelse)"
+            }
+        ]
+    },
+    {
+        "id": "22964",
+        "name": "Vippe & Bryn Behandlinger / inkl. Lash Lift/Brow Lamination",
+        "services": [
+            {
+                "service_id": "129029",
+                "name": "Lash Lift med biotinkur.",
+                "duration": "60 min.",
+                "price": "345,00 kr.",
+                "description": "Permanent vippebuk på naturvippen med biotinkur. Holder op til 4-6 uger og kan genløftes efter 4 uger.\n\r\nDer kan tilkøbes farve af vipper til denne behandling til kr. 50,-\n\r\nAnbefaledes at købe en plejende lotion til vipperne fra Ellebana Elleplex til 320,-"
+            },
+            {
+                "service_id": "129033",
+                "name": "Brow Lamination med biotinkur.",
+                "duration": "50 min.",
+                "price": "345,00 kr.",
+                "description": "Brow Lamination er en permanetbehandling af bryn. Hårene behandles med en plejende kreatinvæske, som hjælper med at manipulerer med formen og groretningen og får dine bryn til at synes længere og fyldigere. \r\nBehandlingen sluttes af med biotinkur. Holder op til 6 - 8 uger og må gentages efter 4 uger.\n\r\nDer kan tilkøbes farve af bryn til kr.50,- til denne behandling."
+            },
+            {
+                "service_id": "130762",
+                "name": "Lash Lift og Brow Lamination KOMBI",
+                "duration": "75 min.",
+                "price": "495,00 kr.",
+                "description": "Lash Lift og Brow Lamination begge med Biotionkur. \n\r\nElleplex Conditioner anbefaledes at købes med som pleje til kr. 320,-.\r\n(Ligesom hos frisøren, så anbefaledes håret næring efter en behandling med kemi)\n\r\nDer kan tilkøbes farve til bryn og vipper til kr. 100,-"
+            },
+            {
+                "service_id": "131064",
+                "name": "Farvning af vipper",
+                "duration": "15 min.",
+                "price": "145,00 kr.",
+                "description": null
+            },
+            {
+                "service_id": "131065",
+                "name": "Farvning af vipper og bryn",
+                "duration": "20 min.",
+                "price": "225,00 kr.",
+                "description": null
+            },
+            {
+                "service_id": "131067",
+                "name": "Farvning af Vipper og Bryn inkl. ret & formning af bryn.",
+                "duration": "45 min.",
+                "price": "295,00 kr.",
+                "description": null
+            },
+            {
+                "service_id": "137329",
+                "name": "Vedligeholdelse Brow Lamination",
+                "duration": "30 min.",
+                "price": "295,00 kr.",
+                "description": "Imellem de 4-6 ugers ventetid på Brow Lamination tilbydes det vedligeholdelse af behandlingen.\n\r\nDer bliver peelet, lagt serum til håret, vokset, farvetmed biotinkur sluttes af med en Organic Boost Botox fugtkur.\n\r\n(et hår gennemsnit levetid er fra 28 dage, men ligger i intervaller og er individuel hvor længe der tager for udskiftning)"
+            },
+            {
+                "service_id": "153581",
+                "name": "Retning og formning af bryn.",
+                "duration": "20 min.",
+                "price": "149,00 kr.",
+                "description": "Retning med Lycon voks og form med pincet."
+            },
+            {
+                "service_id": "175020",
+                "name": "Farvning bryn inkl. ret og form med voks og pincet",
+                "duration": "30 min.",
+                "price": "245,00 kr.",
+                "description": null
+            },
+            {
+                "service_id": "229739",
+                "name": "Farvning af bryn",
+                "duration": "15 min.",
+                "price": "145,00 kr.",
+                "description": null
+            },
+            {
+                "service_id": "317526",
+                "name": "Vedligeholdelse Lash Lift",
+                "duration": "25 min.",
+                "price": "295,00 kr.",
+                "description": "Farvning af vipper og biotin kur (proteinkur) - afsluttes med en plejende fugtkur."
+            },
+            {
+                "service_id": "317541",
+                "name": "Vedligeholdelse Lash + Brow",
+                "duration": "60 min.",
+                "price": "395,00 kr.",
+                "description": "Behandlingen er med: Farve af vipper + bryn inkl. biotinkur (proteinkur), samt ret af bryn med voks og pincet. \n\r\nAfsluttes med Organic Lash Botox og plejende/beskyttende produkter efter voksning."
+            }
+        ]
+    },
+    {
+        "id": "22966",
+        "name": "Kropsbehandlinger / KUN FOR KVINDER",
+        "services": [
+            {
+                "service_id": "192595",
+                "name": "LOVEABLE, Ryg- & Ansigtsbehandling 15+",
+                "duration": "90 min.",
+                "price": "875,00 kr.",
+                "description": "LOVEABLE er til dig der har brug for, at komme helt ned i gear. \n\r\nBehandling består af rens, peeling med Kalahari lifestyle produkter og 20 min rygmassage, efterfulgt af 60 min. ansigtsbehandling tilpasset din hud og tilstand. Der bruges tid på afspænding, massage og drænage."
+            },
+            {
+                "service_id": "210117",
+                "name": "RYGBEHANDLING",
+                "duration": "60 min.",
+                "price": "650,00 kr.",
+                "description": "2 x afrens,  peeling tilpasset hudtype og tilstand, dybderens, massage, maske og afsluttende produkter.\n\r\nBehandlingen er til dig der lider af urenheder på ryggen og har brug for oprydning."
+            },
+            {
+                "service_id": "220005",
+                "name": "DETOX & RELAX",
+                "duration": "110 min.",
+                "price": "899,00 kr.",
+                "description": "Kroppen bliver afrenset 2 gange i tilpasset sæbe, efter hudtilstand. Derefter peeles den med den lækkereste kaffeskrub fra Kalahari, sammen med afrikanske botaniske olier.\r\nKoffeinen starter blodomløb og kroppen bliver massageret og dræneret efter afrens og peeling.\n\r\nDu vil føle at din krop sværger og er fornyet af energi. Udover det bliver kroppen også renset naturligt for affaldsstoffer. Der anbefales at drikke 1-2 L. Væske efter behandlingen for at rense kroppen bagefter."
+            }
+        ]
+    },
+    {
+        "id": "37803",
+        "name": "Rabat Pakker",
+        "services": [
+            {
+                "service_id": "137110",
+                "name": "BIOPEN MICRONEEDLING 3 BEHANDLING (3 x KURFORLØB)",
+                "duration": "75 min.",
+                "price": "3.000,00 kr.",
+                "description": "SPAR KR. 585,-\n\r\n3 x microneedling behandlinger som en forløb-pakke til en meget god pris. \n\r\nArbejder INTENS på at danne nye forbedret hudceller, spækket med kollagen, hyaluronsyre og elastin fra Dermis, så Bindevævet bliver stærkt og fornyet.\r\nModvirker: pigmentering, fine og mimiske linjer, ar, forbedre syrekappen ift. eksemer/ ubalancer - og Rødme, herunder også rødme fra Rosacea.\n\r\nI prisen er der en aktiv Ampul, til at behandle i de første dage, samt mini kit.\r\nDer anbefales på det kraftigste at investere i Kalahari basis FASE 1 produkter herunder: Tilpasset rens, tonic, serum og cream (evt. barriere cream) for at kunne ramme de forventninger og ønske der er fokus på.\r\nAlle produkter komplementere hinanden og virker aktivt sammen med hinanden.\r\n80 % af vores resultater ligger i hjemmeplejen!\n\r\n(forvent basis serie FASE 1 produkter til omkring kr.1000-1500,- FULLSIZE str.)\n\r\nDer skal gå 28. dage +/- imellem bookningerne. Huden vil være rød og varm efter behandlingen og kan begynde at skælle efter en dag eller tre.\n\r\nObs: Det er ikke muligt at tilkøbe voks som ekstra ydelse på denne behandling."
+            },
+            {
+                "service_id": "195327",
+                "name": "C-VITAMIN-PAKKEN (4 x KURFORLØB)",
+                "duration": "70 min.",
+                "price": "2.200,00 kr.",
+                "description": "SPAR 500,-\n\r\nBehandlingen er til dig der døjer med fine linjer og mangler vitalitet i huden og er tilladt til ALLE HUDTYPER. C-vitamin er især god til at styrke og forynger huden.\r\nDen er fantastisk til dig der lider af Rosacea, Psorasis, hvor bindevævet bliver genopbygge over de 4 behandlinger, som fortages inden for en uges mellemrum.\n\r\nBehandlinger giver huden en energiboost, en mere jævn hudtone, lysne og opstramme. Huden bliver spækket med Antioxidant.\n\r\nBehandling består af 2 x afrens, peeling, dybderens, c-vitamin, maske, massage og afsluttende cremer.\n\r\nDer bliver brugt professionelle produkter fra Kalahari."
+            },
+            {
+                "service_id": "229740",
+                "name": "VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)",
+                "duration": "120 min.",
+                "price": "945,00 kr.",
+                "description": "SPAR KR. 199,-\n\r\nVelværsmassage efterfulgt af FLOW ansigtsbehandling.\n\r\nHele Lympfesystemet bliver dræneret for affaldstoffer og vejrtrækning kommer ned i maven. \n\r\nDet anbefaldes at drikke op til 2 L. efter behandlingen. Og tiden er ink. omklædning."
+            },
+            {
+                "service_id": "229741",
+                "name": "GRATITUDE Ansigtsbehandling+ Lash Lift/Brow Lamination-Pakken",
+                "duration": "140 min.",
+                "price": "1.100,00 kr.",
+                "description": "SPAR KR. 70,-\n\r\nGratitude (Anti-age 25+) ansigtsbehandling & Lash og Brow i kombination. Herunder også ret af bryn med voks og pincet.\n\r\nFarve til behandlingen kan tilkøbe i næste vindue i bookingen."
+            }
+        ]
+    },
+    {
+        "id": "51823",
+        "name": "Voksbehandlinger (Ansigt)",
         "services": [
             {
                 "service_id": "130709",
-                "name": "LYCON // Hot Voks - Halv ansigt (fra næse til hage)",
-                "duration": "45 min.",
+                "name": "LYCON // Hot Voks - Halv ansigt (fra næse (ekskl. næse) til hage)",
+                "duration": "35 min.",
                 "price": "245,00 kr.",
                 "description": null
             },
             {
                 "service_id": "130710",
-                "name": "TILBUD: LYCON // Hot Voks - Overlæbe",
+                "name": "LYCON // Hot Voks - Overlæbe",
                 "duration": "15 min.",
-                "price": "120,00 kr.",
+                "price": "145,00 kr.",
                 "description": null
             },
             {
@@ -22,27 +228,6 @@
                 "name": "LYCON // Hot Voks - Hage (også under hage)",
                 "duration": "15 min.",
                 "price": "175,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "130712",
-                "name": "LYCON // Hot Voks - Bryn",
-                "duration": "15 min.",
-                "price": "145,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "130713",
-                "name": "LYCON // Hot Voks - Axil (Armhule)",
-                "duration": "30 min.",
-                "price": "245,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "130714",
-                "name": "LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ).",
-                "duration": "45 min.",
-                "price": "345,00 kr.",
                 "description": null
             },
             {
@@ -58,25 +243,31 @@
                 "duration": "15 min.",
                 "price": "145,00 kr.",
                 "description": null
-            },
+            }
+        ]
+    },
+    {
+        "id": "51824",
+        "name": "Voksbehandlinger (Krop) / KUN FOR KVINDER",
+        "services": [
             {
-                "service_id": "149714",
-                "name": "LYCON // Hot voks - Bikini (KUN KVINDER)",
+                "service_id": "130713",
+                "name": "LYCON // Hot Voks - Axil (Armhule)",
                 "duration": "30 min.",
                 "price": "245,00 kr.",
-                "description": "Kun for kvinder.\n\r\nDer bliver taget rundt om trussekanten også nedre - så man kan se flot ud i bikini uden hår."
+                "description": null
             },
             {
-                "service_id": "149715",
-                "name": "LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)",
-                "duration": "60 min.",
-                "price": "495,00 kr.",
-                "description": "Kun for kvinder.\n\r\nFor og bag fjernelse af hår intimt."
+                "service_id": "130714",
+                "name": "LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ).",
+                "duration": "35 min.",
+                "price": "345,00 kr.",
+                "description": null
             },
             {
                 "service_id": "202465",
-                "name": "LYCON // Voks af arme eller skuldre",
-                "duration": "45 min.",
+                "name": "LYCON // Voks af 1/2 arme eller skuldre",
+                "duration": "35 min.",
                 "price": "295,00 kr.",
                 "description": null
             },
@@ -88,190 +279,44 @@
                 "description": "Hele ben vokses."
             },
             {
-                "service_id": "218005",
-                "name": "TILLÆG ENZYMER (giver mindre hårvækst)",
-                "duration": "5 min.",
-                "price": "125,00 kr.",
-                "description": "El Kadif er et smart enzym program som man kan bekæmpe uønsket hårvækst.\r\nDer skal investeres i et hjemmkit i klinikken, hvis hårvæksten skal ophøre. Dog vil du ved påførelse af enzymer under din voksbehandling, opleve at der kommer langt mindre hårvækst til næste voksbehandling."
+                "service_id": "317529",
+                "name": "LYCON // Voks hele arme",
+                "duration": "45 min.",
+                "price": "345,00 kr.",
+                "description": null
             }
         ]
     },
     {
-        "id": "22963",
-        "name": "ANSIGTSBEHANDLINGER",
+        "id": "51825",
+        "name": "Voksbehandlinger (Intim) / KUN FOR KVINDER",
         "services": [
             {
-                "service_id": "130715",
-                "name": "FLOW ansigtsbehandling  (ALLE OGSÅ BØRN)",
-                "duration": "60 min.",
-                "price": "545,00 kr.",
-                "description": "Tilladt til alle hudtyper og alder. Både ansigt, hals og bryst bliver behandlet.\n\r\nEn ansigtsbehandling med Tina Lykkegaards ekstremt nærende og fugtgivende produkter. Behandlingen giver næring, fugt og balance i huden. Til dig der bare ønsker at massagen skal være i højsædet igennem hele behandlingen og samtidig gå fra behandlingen med hud der stråler og føles gennemfugtet og plejet.\r\nObs - der bliver IKKE dybderenset i denne behandling, da det handler om at holde ro og velvær i kroppen, når gæsten forlader briksen.\n\r\nBehandles med Tina Lykkegaard produkter:\r\n2 gange afrens i rensebalm, peeling med kulmaske, Ansigtsmassage, fugtmaske med Lysterapi.\r\nBehandlingen afsluttes med varme klæder med Kamille og produkter fra Tina Lykkegaard.\n\r\nTiden er inkl. omklædning, kort konsultation og der vil blive serveret lidt til ganen."
-            },
-            {
-                "service_id": "135584",
-                "name": "TILLÆG: DIAMANTSLIBNING",
-                "duration": "30 min.",
-                "price": "275,00 kr.",
-                "description": "Tillægs behandling - og kan kun tilføjes til en ansigtsbehandling og ikke en stand alone behandling.\n\r\nDiamantslibning, også kaldt dermabrasion er en mild slibning af huden med små kunstige diamanter tilpasset din hud og tilstand. \n\r\nDiamantslibning er til dig der ønsker en forfinet hud og kan over flere behandlinger også arbejde på acne ar. Perfekt som tillæg til SAVE MY FACE, når betændelsen har lagt sig."
-            },
-            {
-                "service_id": "137108",
-                "name": "HUDANALYSE // KONSULTATION",
-                "duration": "30 min.",
-                "price": "275,00 kr.",
-                "description": "Grundig gennemgang af hudtype og tilstanden. \r\nVejledning og produkt anbefalinger målrette din hud. \n\r\nHvis der planlægges et forløb over 4. Behandlinger, vil konsultationsprisen på kr. 295,- fratrækkes på slut behandlingen. (4. Behandlingspris)."
-            },
-            {
-                "service_id": "143433",
-                "name": "ALGE MASKE // MODELLING MASK",
-                "duration": "15 min.",
-                "price": "195,00 kr.",
-                "description": "Algemaske som lægges ovenpå serum, som hjælper serummens rejse ned igennem hudens lag. Din hud vil være fugtmættet og stråle af glød!\n\r\nPerfekt inden \"a big day\" og kan tilpasses ung og moden hud."
-            },
-            {
-                "service_id": "192593",
-                "name": "GRATITUDE (24+)",
-                "duration": "70 min.",
-                "price": "675,00 kr.",
-                "description": "Alle hudtyper og tilstanden, alder 24+\r\nPrisen er inklusiv at der behandles i ansigt, på hals og decolté.\n\r\nI Gratitude ansigtsbehandlingen, kommer vi godt rundt om det hele.\r\nTil dig der ønsker at at din hud renset, regenereret, opstrammet og fugtmættet - så den stråler af glød!\n\r\nBehandlingen består af 2 x afrens, peeling, dybderens, ansigtsmassage med punkt afspænding, muskle opstramning og drænage. Olier aftenses og der påføres maske. Mens masken arbejder, bliver hænder og arme massageret.\n\r\nVarme klæde med C vitamin og afsluttende produkter. \n\r\nUnder behandlingen arbejdes der med professionelle apparater tilpasset din hud og tilstand.\n\r\nBehandlingen er inkl. omklædning og kort konsultation og der bliver serveret lidt efter endt behandling."
-            },
-            {
-                "service_id": "192595",
-                "name": "LOVEABLE (25+)",
-                "duration": "90 min.",
-                "price": "875,00 kr.",
-                "description": "LOVEABLE er til dig der har brug for, at komme helt ned i gear. \n\r\nBehandling består af rens, peeling og 20 min rygmassage, efterfulgt af 60 min ansigtsbehandling med professionelle produkter tilpasset din hud og tilstand. Der bruges tid på afspænding, massage og drænage. \n\r\nUnder ansigts behandlingen bliver der også brugt profesionelle apparater."
-            },
-            {
-                "service_id": "192596",
-                "name": "SAVE MY FACE ( 12-24 år)",
-                "duration": "60 min.",
-                "price": "525,00 kr.",
-                "description": "SAVE MY FACE behandlingen er til den unge hud, som er ramt af hormonelle forandringer og skal regeneres mildt, dybderense og beroliges.\n\r\nDet kan være grænseoverskridende og en uvant situation, at få en ansigtsbehandling og derfor er behandlingen heller ikke for lang.\n\r\n Der vil oftes kræves flere behandlinger, ca. 28 dages mellemrum, for at opnå resultater og udrensning.\n\r\nLigeledes kræver det en tilpasning af hudpleje rutine, med gode sunde produkter."
-            },
-            {
-                "service_id": "195327",
-                "name": "C-VITAMIN 4 BEHANDLING (KURFORLØB)",
-                "duration": "70 min.",
-                "price": "2.245,00 kr.",
-                "description": "Behandlingen er til dig der døjer med fine linjer og mangler vitalitet i huden og er tilladt til ALLE HUDTYPER. C-vitamin er især god til at styrke og forynger huden.\n\r\nDet anbefales en c-vitamin behandling én gang om ugen = i alt 4 behandlinger for at give huden en energiboost, en mere jævn hudtone, lysne og opstramme. Huden bliver spækket med Antioxidant.\n\r\nBehandling består af 2 x afrens, peeling, dybderens, c-vitamin, maske, massage og afsluttende cremer.\n\r\nDer bliver brugt professionelle produkter fra Kalahari."
-            },
-            {
-                "service_id": "210118",
-                "name": "TILLÆG: DYBDERENS AF ØRER",
-                "duration": "20 min.",
-                "price": "215,00 kr.",
-                "description": "Denne behandling, kan tillægges ansigtsbehandlinger - hvis du døjer med comedoner/hudorme i ørene, eller bag øret."
-            },
-            {
-                "service_id": "210120",
-                "name": "HEAL & GLOW",
-                "duration": "75 min.",
-                "price": "785,00 kr.",
-                "description": "Denne ansigtsbehandling er til dig der har ujævnheder, ar eller blot ønsker vitalitet i huden og et GLOW.\n\r\nObs: Der indgår apparater i denne behandling - og din hud vurderes efter afrens, om den kan tåle diamantslibningen ellers udskiftes den med en peeling tilpasset hud tilstand.\n\r\n2 x afrens, mild enzym peeling, diamantslibning, serum tilpasset hud tilstand og fokus, samt DermaOXY apperat til indsluse serummens rejse endnu længere ned i huden, så du opnår MAX fugtmætning i huden og fine linjer udviskes. Algemaskes indkapsler serum og afsluttes med massage og afsluttende produkter."
-            },
-            {
-                "service_id": "222659",
-                "name": "TILLÆG: MASSAGE (Decolleté. hals og nakke)",
+                "service_id": "149714",
+                "name": "LYCON // Hot voks - Bikini (KUN KVINDER)",
                 "duration": "15 min.",
                 "price": "245,00 kr.",
-                "description": "Kan kombineres med behandlinger og ikke tilkøbes alene. 15 min massage af decollete, hals og nakke - afsluttes med afspænding af punkter i neurokranie/hovedebundsmassage massage."
-            }
-        ]
-    },
-    {
-        "id": "22964",
-        "name": "VIPPE & BRYN BEHANDLINGER",
-        "services": [
+                "description": "Kun for kvinder.\n\r\nDer bliver taget rundt om trussekanten også nedre - så man kan se flot ud i bikini uden hår."
+            },
             {
-                "service_id": "129029",
-                "name": "ELLEBANA // Lash Lift med biotinkur.",
+                "service_id": "149715",
+                "name": "LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)",
                 "duration": "60 min.",
-                "price": "345,00 kr.",
-                "description": "Permanent vippebuk på naturvippen med biotinkur. Holder op til 4-6 uger og kan genløftes efter 4 uger.\n\r\nDer kan tilkøbes farve af vipper til denne behandling til kr. 50,-\n\r\nAnbefaledes at købe en plejende lotion til vipperne fra Ellebana Elleplex til 320,-"
-            },
-            {
-                "service_id": "129033",
-                "name": "Brow Lamination med biotinkur.",
-                "duration": "50 min.",
-                "price": "345,00 kr.",
-                "description": "Brow Lamination er en permanetbehandling af bryn. Hårene behandles med en plejende kreatinvæske, som hjælper med at manipulerer med formen og groretningen og får dine bryn til at synes længere og fyldigere. \r\nBehandlingen sluttes af med biotinkur. Holder op til 6 - 8 uger og må gentages efter 4 uger.\n\r\nDer kan tilkøbes farve af bryn til kr.50,- til denne behandling."
-            },
-            {
-                "service_id": "130762",
-                "name": "ELLEBANA // Lash Lift og Brow Lamination KOMBI",
-                "duration": "75 min.",
                 "price": "495,00 kr.",
-                "description": "Lash Lift og Brow Lamination begge med Biotionkur. \n\r\nElleplex Conditioner anbefaledes at købes med som pleje til kr. 320,-.\r\n(Ligesom hos frisøren, så anbefaledes håret næring efter en behandling med kemi)\n\r\nDer kan tilkøbes farve til bryn og vipper til kr. 100,-"
+                "description": "Kun for kvinder.\n\r\nFor og bag fjernelse af hår intimt."
             },
             {
-                "service_id": "131064",
-                "name": "Farvning af vipper",
-                "duration": "15 min.",
-                "price": "165,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "131065",
-                "name": "Farvning af vipper og bryn",
-                "duration": "30 min.",
-                "price": "225,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "131067",
-                "name": "Farvning af Vipper og Bryn inkl. ret & formning af bryn.",
-                "duration": "45 min.",
+                "service_id": "317528",
+                "name": "LYCON // Voks af Tanga (KUN FOR KVINDER)",
+                "duration": "25 min.",
                 "price": "295,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "137329",
-                "name": "Vedligeholdelse Brow Lamination",
-                "duration": "45 min.",
-                "price": "320,00 kr.",
-                "description": "Imellem de 4-6 ugers ventetid på Brow Lamination tilbydes det vedligeholdelse af behandlingen.\n\r\nDer bliver peelet, lagt serum til håret med algemaske (modeling mask i bryn området), vokset, farvet og sluttes af med en maske og en oliekur til at forsegle og neutralisere håret efter farvningen.\n\r\nDvs. Farve og Ret af bryn med Lycon voks og pincet. Efterfulgt at en bryn serum, modeling maske, og oliekur, så håret er stærkt, sund og glansfuldt og står kvinskarpt indtil det kan lamineres igen efter 4-6 uger efter første behandling.\n\r\n(et hår gennemsnit levetid er fra 28 dage og i vinterhalvåret, går det langsommere, end når vi er udsat for meget sol)\r\nVores hår er jo vores \"tøj\" på kroppen anatomisk og vi shedder (taber hår) mere ved meget kontakt ved sollys og livstil."
-            },
-            {
-                "service_id": "153581",
-                "name": "Retning og formning af bryn.",
-                "duration": "30 min.",
-                "price": "195,00 kr.",
-                "description": "Retning med Lycon voks og form med pincet."
-            },
-            {
-                "service_id": "175020",
-                "name": "Farvning bryn inkl. ret og form med voks og pincet",
-                "duration": "30 min.",
-                "price": "245,00 kr.",
-                "description": null
-            },
-            {
-                "service_id": "196601",
-                "name": "LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn",
-                "duration": "10 min.",
-                "price": "50,00 kr.",
-                "description": "Dette tillæg kan tilkøbes ved Elleebana last lift eller brow lamination.\n\r\nGælder kun ved farve af enten vipper eller bryn."
-            },
-            {
-                "service_id": "211479",
-                "name": "LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI",
-                "duration": "15 min.",
-                "price": "100,00 kr.",
-                "description": "Dette tillæg skal pålægges Elleebana Lash Lift og Brow Lamination KOMBI. Farve både på vipper og bryn."
-            },
-            {
-                "service_id": "229739",
-                "name": "Farvning af bryn",
-                "duration": "15 min.",
-                "price": "165,00 kr.",
-                "description": null
+                "description": "Voks af venusbjerg og lysken"
             }
         ]
     },
     {
-        "id": "22966",
-        "name": "KROPSBEHANDLINGER",
+        "id": "51826",
+        "name": "Massage / KUN FOR KVINDER",
         "services": [
             {
                 "service_id": "129034",
@@ -281,39 +326,325 @@
                 "description": "Massagen er fokuseret afslapning og drænering. Afhjælpe ømhed og kan give en langvarig ro i nervesystemet.\n\r\n60 min velværes kropsmassage i Tina Lykkegaard nærende olie.\n\r\nTiden er inkl. omklædning."
             },
             {
-                "service_id": "210117",
-                "name": "RYGBEHANDLING",
-                "duration": "60 min.",
-                "price": "650,00 kr.",
-                "description": "2 x afrens,  peeling tilpasset hudtype og tilstand, dybderens, massage, maske og afsluttende produkter."
-            },
-            {
-                "service_id": "220005",
-                "name": "DETOX & RELAX",
-                "duration": "105 min.",
-                "price": "725,00 kr.",
-                "description": "Kroppen bliver afrenset 2 gange i tilpasset sæbe, efter hudtilstand. Derefter peeles den med den lækkereste kaffeskrub fra Kalahari, sammen med afrikanske botaniske olier.\r\nKoffeinen starter blodomløb og kroppen bliver massageret og dræneret efter afrens og peeling.\n\r\nDu vil føle at din krop sværger og er fornyet af energi. Udover det bliver kroppen også renset naturligt for affaldsstoffer. Der anbefales at drikke 1-2 L. Væske efter behandlingen for at rense kroppen bagefter."
+                "service_id": "317542",
+                "name": "ANSIGTSMASSAGE",
+                "duration": "30 min.",
+                "price": "375,00 kr.",
+                "description": "Behandlingen indeholder: 2 x afrens, botaniske olier fra Kalahari med fokus på drænage, afspænding af muskler og skabe ro i nervesystemet."
             }
         ]
     },
     {
-        "id": "37803",
-        "name": "PAKKER",
+        "id": "51827",
+        "name": "TILLÆG YDELSER",
         "services": [
             {
-                "service_id": "229740",
-                "name": "VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)",
-                "duration": "135 min.",
-                "price": "945,00 kr.",
-                "description": "Velværsmassage efterfulgt af FLOW ansigtsbehandling.\n\r\nHele Lympfesystemet bliver dræneret for affaldstoffer og vejrtrækning kommer ned i maven. \n\r\nDet anbefaldes at drikke op til 2 L. efter behandlingen. Og tiden er ink. omklædning."
+                "service_id": "135584",
+                "name": "TILLÆG: DIAMANTSLIBNING",
+                "duration": "30 min.",
+                "price": "275,00 kr.",
+                "description": "Tillægs behandling - og kan kun tilføjes til en ansigtsbehandling og ikke en stand alone behandling.\n\r\nDiamantslibning, også kaldt dermabrasion er en mild slibning af huden med små kunstige diamanter tilpasset din hud og tilstand. \n\r\nDiamantslibning er til dig der ønsker en forfinet hud og kan over flere behandlinger også arbejde på acne ar. Perfekt som tillæg til SAVE MY FACE, når betændelsen har lagt sig."
             },
             {
-                "service_id": "229741",
-                "name": "LUKSUS-Pakken",
-                "duration": "165 min.",
-                "price": "1.075,00 kr.",
-                "description": "Gratitude (Anti-age 25+) ansigtsbehandling & Elleebana Lash og Brow KOMBO."
+                "service_id": "143433",
+                "name": "ALGE MASKE // MODELLING MASK",
+                "duration": "15 min.",
+                "price": "195,00 kr.",
+                "description": "Algemaske som lægges ovenpå serum, som hjælper serummens rejse ned igennem hudens lag. Din hud vil være fugtmættet og stråle af glød!\n\r\nPerfekt inden \"a big day\" og kan tilpasses ung og moden hud."
+            },
+            {
+                "service_id": "196601",
+                "name": "LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn",
+                "duration": "10 min.",
+                "price": "50,00 kr.",
+                "description": "Dette tillæg kan tilkøbes ved Elleebana last lift eller brow lamination.\n\r\nGælder kun ved farve af enten vipper eller bryn."
+            },
+            {
+                "service_id": "210118",
+                "name": "TILLÆG: DYBDERENS AF ØRER",
+                "duration": "20 min.",
+                "price": "215,00 kr.",
+                "description": "Denne behandling, kan tillægges ansigtsbehandlinger - hvis du døjer med comedoner/hudorme i ørene, eller bag øret."
+            },
+            {
+                "service_id": "211479",
+                "name": "LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI",
+                "duration": "10 min.",
+                "price": "100,00 kr.",
+                "description": "Dette tillæg skal pålægges Elleebana Lash Lift og Brow Lamination KOMBI. Farve både på vipper og bryn."
+            },
+            {
+                "service_id": "222659",
+                "name": "TILLÆG: MASSAGE (Decolleté. hals og nakke)",
+                "duration": "15 min.",
+                "price": "245,00 kr.",
+                "description": "Kan kombineres med behandlinger og ikke tilkøbes alene. 15 min massage af decollete, hals og nakke - afsluttes med afspænding af punkter i neurokranie/hovedebundsmassage massage."
+            },
+            {
+                "service_id": "317525",
+                "name": "ENZYMER (GIVER MINDRE HÅRVÆKST)",
+                "duration": "5 min.",
+                "price": "75,00 kr.",
+                "description": "PAPAYA OG GRÆSKAR ENZYM SOM MODVIRKER HÅR-PAPILLEN."
             }
         ]
+    },
+    {
+        "id": "51833",
+        "name": "Model Tilbud",
+        "services": [
+            {
+                "service_id": "317600",
+                "name": "Kommer snart…",
+                "duration": "5 min.",
+                "price": "0,00 kr.",
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": "129029",
+        "name": "Lash Lift med biotinkur.",
+        "services": []
+    },
+    {
+        "id": "129033",
+        "name": "Brow Lamination med biotinkur.",
+        "services": []
+    },
+    {
+        "id": "129034",
+        "name": "VELVÆRSMASSAGE",
+        "services": []
+    },
+    {
+        "id": "130709",
+        "name": "LYCON // Hot Voks - Halv ansigt (fra næse (ekskl. næse) til hage)",
+        "services": []
+    },
+    {
+        "id": "130710",
+        "name": "LYCON // Hot Voks - Overlæbe",
+        "services": []
+    },
+    {
+        "id": "130711",
+        "name": "LYCON // Hot Voks - Hage (også under hage)",
+        "services": []
+    },
+    {
+        "id": "130713",
+        "name": "LYCON // Hot Voks - Axil (Armhule)",
+        "services": []
+    },
+    {
+        "id": "130714",
+        "name": "LYCON // Strip Voks - halv ben (fra fod op til knæ eller fra bikini til knæ).",
+        "services": []
+    },
+    {
+        "id": "130715",
+        "name": "FLOW ansigtsbehandling  (velegnet til alle)",
+        "services": []
+    },
+    {
+        "id": "130716",
+        "name": "LYCON // Hot Voks - Næse",
+        "services": []
+    },
+    {
+        "id": "130717",
+        "name": "LYCON // Hot Voks - Øre",
+        "services": []
+    },
+    {
+        "id": "130762",
+        "name": "Lash Lift og Brow Lamination KOMBI",
+        "services": []
+    },
+    {
+        "id": "131064",
+        "name": "Farvning af vipper",
+        "services": []
+    },
+    {
+        "id": "131065",
+        "name": "Farvning af vipper og bryn",
+        "services": []
+    },
+    {
+        "id": "131067",
+        "name": "Farvning af Vipper og Bryn inkl. ret & formning af bryn.",
+        "services": []
+    },
+    {
+        "id": "135584",
+        "name": "TILLÆG: DIAMANTSLIBNING",
+        "services": []
+    },
+    {
+        "id": "137108",
+        "name": "HUDANALYSE // KONSULTATION",
+        "services": []
+    },
+    {
+        "id": "137109",
+        "name": "BIOPEN Microneedling",
+        "services": []
+    },
+    {
+        "id": "137110",
+        "name": "BIOPEN MICRONEEDLING 3 BEHANDLING (3 x KURFORLØB)",
+        "services": []
+    },
+    {
+        "id": "137329",
+        "name": "Vedligeholdelse Brow Lamination",
+        "services": []
+    },
+    {
+        "id": "143433",
+        "name": "ALGE MASKE // MODELLING MASK",
+        "services": []
+    },
+    {
+        "id": "149714",
+        "name": "LYCON // Hot voks - Bikini (KUN KVINDER)",
+        "services": []
+    },
+    {
+        "id": "149715",
+        "name": "LYCON // Hot Voks - Brasiliansk/Hollywood (KUN FOR KVINDER)",
+        "services": []
+    },
+    {
+        "id": "153581",
+        "name": "Retning og formning af bryn.",
+        "services": []
+    },
+    {
+        "id": "175020",
+        "name": "Farvning bryn inkl. ret og form med voks og pincet",
+        "services": []
+    },
+    {
+        "id": "192593",
+        "name": "GRATITUDE ansigtsbehandling (15+)",
+        "services": []
+    },
+    {
+        "id": "192595",
+        "name": "LOVEABLE, Ryg- & Ansigtsbehandling 15+",
+        "services": []
+    },
+    {
+        "id": "192596",
+        "name": "SAVE MY FACE ( 12-24 år)",
+        "services": []
+    },
+    {
+        "id": "195327",
+        "name": "C-VITAMIN-PAKKEN (4 x KURFORLØB)",
+        "services": []
+    },
+    {
+        "id": "196601",
+        "name": "LASH LIFT eller BROW LAMI TILLÆG ENKELT farve af enten vipper eller bryn",
+        "services": []
+    },
+    {
+        "id": "202465",
+        "name": "LYCON // Voks af 1/2 arme eller skuldre",
+        "services": []
+    },
+    {
+        "id": "210117",
+        "name": "RYGBEHANDLING",
+        "services": []
+    },
+    {
+        "id": "210118",
+        "name": "TILLÆG: DYBDERENS AF ØRER",
+        "services": []
+    },
+    {
+        "id": "210120",
+        "name": "HEAL & GLOW (15+)",
+        "services": []
+    },
+    {
+        "id": "211479",
+        "name": "LASH LIFT / BROW LAMI TILLÆG farve ved KOMBI",
+        "services": []
+    },
+    {
+        "id": "214745",
+        "name": "LYCON - Voks hel ben",
+        "services": []
+    },
+    {
+        "id": "220005",
+        "name": "DETOX & RELAX",
+        "services": []
+    },
+    {
+        "id": "222659",
+        "name": "TILLÆG: MASSAGE (Decolleté. hals og nakke)",
+        "services": []
+    },
+    {
+        "id": "229739",
+        "name": "Farvning af bryn",
+        "services": []
+    },
+    {
+        "id": "229740",
+        "name": "VELVÆRS PAKKEN (FOKUS PÅ MASSAGE)",
+        "services": []
+    },
+    {
+        "id": "229741",
+        "name": "GRATITUDE Ansigtsbehandling+ Lash Lift/Brow Lamination-Pakken",
+        "services": []
+    },
+    {
+        "id": "317525",
+        "name": "ENZYMER (GIVER MINDRE HÅRVÆKST)",
+        "services": []
+    },
+    {
+        "id": "317526",
+        "name": "Vedligeholdelse Lash Lift",
+        "services": []
+    },
+    {
+        "id": "317528",
+        "name": "LYCON // Voks af Tanga (KUN FOR KVINDER)",
+        "services": []
+    },
+    {
+        "id": "317529",
+        "name": "LYCON // Voks hele arme",
+        "services": []
+    },
+    {
+        "id": "317541",
+        "name": "Vedligeholdelse Lash + Brow",
+        "services": []
+    },
+    {
+        "id": "317542",
+        "name": "ANSIGTSMASSAGE",
+        "services": []
+    },
+    {
+        "id": "317564",
+        "name": "BRIGHT LIKE A DIAMANT / Ansigtsbehandling med diamantslibning",
+        "services": []
+    },
+    {
+        "id": "317600",
+        "name": "Kommer snart…",
+        "services": []
     }
 ]
